@@ -1,0 +1,54 @@
+.navbar{position: sticky; top: 0; left: 0; width: 100%; display: flex; justify-content: center; align-content: center; z-index: 4}
+.navbarContainer{ width: 96%; height: 73; position: relative; display: flex;}
+.navbarBgImg{ width: 100%; justify-self: center;}
+.navbarLogo{ position: absolute; height: 60%; align-self: center; margin-left: 2%}
+.navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: flex; justify-content: space-between}
+.navbarText{color: #333; text-decoration: none; font-size: 1.15rem;}
+.navbarText:hover{border-bottom: #FF6B19 solid 2.5px}
+.main{height: 100%; position: relative; box-sizing: border-box;}
+.drone{width: 5%;position: absolute;z-index: 3; margin-left: .5%; margin-top: 38%}
+.droneLanding{position: absolute; height: .40%; width: 5%; background-color: #FF6B19; border-radius: 50}
+.hero{border-left: solid; border-right: solid; border-color: #999; width: 86%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
+.imgContainer {overflow: hidden;margin: 10; position: relative;}  
+.slideContainer {display: flex; transition: transform 0.5s ease-in-out;}  
+.Img {flex: 0 0 100%; width: 100%; }
+.prevBtn{position: absolute; height: 50px; width: 50px; bottom: 0%; right: 4%; z-index: 1;}
+.nextBtn{position: absolute; height: 50px; width: 50px; bottom: 0%; right: 0%; z-index: 1;}
+.title{font-size: 2rem; font-weight: 700; color: black; margin-left: 15px;}
+.para{font-size: 1.1rem; padding: 10; width: 90%;}
+.modalities{font-size: 1.1rem; margin-left: 30; width: 90%; padding: 10; margin-bottom: 10vh;}
+.footer{display: flex; position: relative; height: 42vh; width: 100%; border-top: dashed #999; box-sizing: border-box; overflow: hidden;}
+.footerTitle{font-size: 1.75rem; font-weight: 700;}
+.footerSubTitle{color: #333; font-size: 1.1rem; margin-top: 10;}
+.footerConnect{font-size: 1.5rem; font-weight: 600; margin-top: 100;}
+.footerImg{position: absolute; object-fit: cover; width: 24%; margin-left: 53%; margin-top: .5%;}
+
+@media screen and (max-width: 1024px) {
+    .navbarContainer{height: 68;}
+    .navbarText{font-size: 1.1rem;}
+    .droneLanding{height: .25%;}
+    .prevBtn{width: 45; height: 45; right: 5.25%;}
+    .nextBtn{width: 45; height: 45;}
+    .title{font-size: 1.9rem;}
+    .para{font-size: 17;}
+    .modalities{font-size: 17;}
+    .footer{height: 32vh;}
+    .footerConnect{margin-top: 60;}
+    .footerImg{margin-left: 47%;}
+}
+
+@media screen and (max-width: 768px) {
+    .navbarContainer{height: 55;}
+    .navbarText{font-size: 1rem;}
+    .droneLanding{height: .25%;}
+    .prevBtn{width: 40; height: 40; right: 6.25%;}
+    .nextBtn{width: 40; height: 40;}
+    .title{font-size: 1.6rem;}
+    .para{font-size: 16;}
+    .modalities{font-size: 16;}
+    .footer{height: 29vh;}
+    .footerTitle{font-size: 1.5rem;}
+    .footerSubTitle{font-size: 1rem;}
+    .footerConnect{margin-top: 50; font-size: 1.3rem;}
+    .footerImg{margin-left: 41%;}
+}

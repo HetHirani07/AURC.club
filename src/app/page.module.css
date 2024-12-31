@@ -1,0 +1,62 @@
+.firstPage{ display: flex; justify-content: center; height: 100vh; overflow: hidden; box-sizing: border-box;}
+.secondPage{height: 90vh; position: relative; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}
+.thirdPage{height: 100%; box-sizing: border-box; position: relative;}
+.logoImpression{height: 200; will-change: transform}
+.navbar{position: sticky; top: 0; left: 0; width: 100%; display: flex; justify-content: center; align-content: center; z-index: 4;}
+.navbarContainer{ width: 96%; height: 73; position: relative; display: flex;}
+.navbarBgImg{ width: 100%; justify-self: center;}
+.navbarLogo{ position: absolute; height: 60%; align-self: center; margin-left: 2%}
+.navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: flex; justify-content: space-between}
+.navbarText{color: #333; text-decoration: none; font-size: 1.15rem;}
+.navbarText:hover{border-bottom: #FF6B19 solid 2.5px}
+.hero{border-left: solid; border-right: solid; border-color: #999; width: 86%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
+.space{height: 10%;}
+.spaceA{height: 10vh;}
+.dashboardLeft{display: 'flex'; flex-direction: column; height: 100%; width: 22.30%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-color: #999}
+.dashboardUpper{height: 50%; width: 100%; border-bottom: solid; border-color: #999; display: flex; flex-direction: column; justify-content: center; align-content: center}
+.dashboardLower{height: 50%; width: 100%; display: flex;flex-direction: column; justify-content: center; align-content: center}
+.dashboardLower:hover{color: #FF6B19;}
+.dashboardUpper:hover{color: #FF6B19;}
+.dashboardRight{display: 'flex'; flex-direction: column; height: 100%; width: 21.5%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-color: #999;}
+.textUpper{font-size: 100; font-weight: 600; align-self: center}
+.textLower{font-size: 25; font-weight: 100; align-self: center}
+.drone{width: 5%;position: absolute;z-index: 3; margin-left: -49.5%; margin-top: 38%}
+.droneLanding{position: absolute; margin-left: -49.65%; margin-top: 40.7%; height: .65%; width: 5%; background-color: #FF6B19; border-radius: 50}
+.marqueeBox{padding-top: 10px;width: 100%; display: flex; justify-self: center; overflow: hidden;}
+.marqueeText{font-size: 120; margin-top: 0px; margin-bottom: 70px; display: flex; vertical-align: center; font-weight: 700; white-space: nowrap}
+.footer{display: flex; position: relative; height: 42vh; width: 100%; border-top: dashed #999; box-sizing: border-box; overflow: hidden;}
+.footerTitle{font-size: 1.75rem; font-weight: 700;}
+.footerSubTitle{color: #333; font-size: 1.1rem; margin-top: 10;}
+.footerConnect{font-size: 1.5rem; font-weight: 600; margin-top: 100;}
+.footerImg{position: absolute; width: 24%; margin-left: 53%; margin-top: .5%;}
+
+@media screen and (max-width: 1024px) {
+    .logoImpression{height: 180;}
+    .secondPage{height: 70vh;}
+    .navbarContainer{height: 68;}
+    .navbarText{font-size: 1.1rem;}
+    .textUpper{font-size: 80px}
+    .textLower{font-size: 20px}
+    .space{height: 6%;}
+    .marqueeText{margin-bottom: 10px; font-size: 100;}
+    .footer{height: 32vh;}
+    .footerConnect{margin-top: 60;}
+    .footerImg{margin-left: 47%;}
+}
+
+@media screen and (max-width: 768px) {
+    .logoImpression{height: 150;}
+    .secondPage{height: 60vh;}
+    .navbarContainer{height: 55;}
+    .navbarText{font-size: 1rem;}
+    .textUpper{font-size: 60px}
+    .textLower{font-size: 16px}
+    .space{height: 4%;}
+    .marqueeBox{padding-top: 12px;}
+    .marqueeText{margin-bottom: 10px; font-size: 90;}
+    .footer{height: 29vh;}
+    .footerTitle{font-size: 1.5rem;}
+    .footerSubTitle{font-size: 1rem;}
+    .footerConnect{margin-top: 50; font-size: 1.3rem;}
+    .footerImg{margin-left: 41%;}
+}
