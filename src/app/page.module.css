@@ -3,7 +3,7 @@
 .thirdPage{height: 100%; box-sizing: border-box; position: relative;}
 .logoImpression{height: 200px; will-change: transform}
 .navbar{position: sticky; top: 0; left: 0; width: 100%; display: flex; justify-content: center; align-content: center; z-index: 4;}
-.navbarContainer{ width: 96%; height: 73; position: relative; display: flex;}
+.navbarContainer{ width: 96%; height: 73px; position: relative; display: flex;}
 .navbarBgImg{ width: 100%; justify-self: center;}
 .navbarLogo{ position: absolute; height: 60%; align-self: center; margin-left: 2%}
 .navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: flex; justify-content: space-between}
@@ -33,7 +33,7 @@
 @media screen and (max-width: 1024px) {
     .logoImpression{height: 180px;}
     .secondPage{height: 70vh;}
-    .navbarContainer{height: 68;}
+    .navbarContainer{height: 68px;}
     .navbarText{font-size: 1.1rem;}
     .textUpper{font-size: 80px}
     .textLower{font-size: 20px}
@@ -47,7 +47,7 @@
 @media screen and (max-width: 768px) {
     .logoImpression{height: 150px;}
     .secondPage{height: 60vh;}
-    .navbarContainer{height: 55;}
+    .navbarContainer{height: 55px;}
     .navbarText{font-size: 1rem;}
     .textUpper{font-size: 60px}
     .textLower{font-size: 16px}
