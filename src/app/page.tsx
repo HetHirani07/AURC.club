@@ -1,4 +1,5 @@
 'use client';
+import dynamic from 'next/dynamic';
 import Events from './components/events';
 import About from './components/about';
 import { useRef, useEffect, useLayoutEffect} from "react";
@@ -11,43 +12,45 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 export default function Home(){
+  //const Lenis = dynamic(() => import('lenis'), { ssr: false });
   const imageRef = useRef(null);
   const marqueeRef = useRef(null);
-  // const widthM = window.innerWidth;
-  // const heightM = window.innerHeight;
-  // console.log({widthM}, {heightM})
 
-  const handleHome=()=>{
-    const section = document.getElementById('home');
-    if(section){
-      lenis.scrollTo(section);
-    };
+  const handleHome = () => {
+    if (typeof window !== 'undefined') {
+      const section = document.getElementById('home');
+      if (section) {
+        lenis.scrollTo(section);
+      }
+    }
   };
-  const handleEvent=()=>{
-    const section = document.getElementById('events');
-    if(section){
-      lenis.scrollTo(section);
-    };
+  const handleEvent = () => {
+    if (typeof window !== 'undefined') {
+      const section = document.getElementById('events');
+      if (section) {
+        lenis.scrollTo(section);
+      }
+    }
   };
 
   useEffect(() => {
-    const image = imageRef.current;
-
-    if(image){
-      const handleScroll = () => {
-        const scrollY = window.scrollY;
-        (image as HTMLImageElement).style.transform = `scale(${1 + scrollY * 0.009})`;
-      };
-
-      window.addEventListener('scroll', handleScroll);
-      return () => window.removeEventListener('scroll', handleScroll);
+    if (typeof window !== 'undefined') {
+      const image = imageRef.current;
+      if (image) {
+        const handleScroll = () => {
+          const scrollY = window.scrollY;
+          (image as HTMLImageElement).style.transform = `scale(${1 + scrollY * 0.009})`;
+        };
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+      }
     }
   }, [imageRef]);
 
-  const lenis = new Lenis({
-    duration: 1,
-    easing: (t)=> 1 - Math.pow(1 - t, 2) 
-  });
+    const lenis = new Lenis({
+      duration: 1,
+      easing: (t)=> 1 - Math.pow(1 - t, 2) 
+    });
   
   useEffect(() => {
     function raf(time: number) {
