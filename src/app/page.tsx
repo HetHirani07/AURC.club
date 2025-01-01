@@ -150,7 +150,7 @@ export default function Home(){
           <div className={styles.hero}>
           <div id='home' className={styles.space}></div>
 
-          <div className={styles.marqueeBox}>
+          <div className={styles.marqueeBox} >
             <p ref={marqueeRef} className={styles.marqueeText}>Adani University Robotics Club  Adani University Robotics Club</p>
           </div>
 
