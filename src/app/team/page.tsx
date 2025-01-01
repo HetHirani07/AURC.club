@@ -31,7 +31,7 @@ export default function Team(){
         <main>
         <div style={{position: 'relative'}}>
             <nav id="nav" className={styles.navbar}>
-            <div style={{ width: '96%', height: 73, position: 'relative', display: 'flex'}}>
+            <div className={styles.navbarContainer}>
               <img src="/navbar.png" className={styles.navbarBgImg} />
               <img src="/AURC_logo.png" className={styles.navbarLogo} />
 
@@ -53,7 +53,7 @@ export default function Team(){
 
             <div className={styles.hero}>
                 <div style={{display: 'flex', alignItems: 'center', marginTop: 50, marginLeft: 40}}>
-                    <img src='/rectBullet.png' style={{height: 10, width: 10}}></img>
+                    <img src='/rectBullet.png' className={styles.bullet}></img>
                     <span className={styles.title}>Team</span>
                 </div>
 

@@ -26,8 +26,8 @@
 .marqueeText{font-size: 120px; margin-top: 0px; margin-bottom: 70px; display: flex; vertical-align: center; font-weight: 700; white-space: nowrap}
 .footer{display: flex; position: relative; height: 42vh; width: 100%; border-top: dashed #999; box-sizing: border-box; overflow: hidden;}
 .footerTitle{font-size: 1.75rem; font-weight: 700;}
-.footerSubTitle{color: #333; font-size: 1.1rem; margin-top: 10;}
-.footerConnect{font-size: 1.5rem; font-weight: 600; margin-top: 100;}
+.footerSubTitle{color: #333; font-size: 1.1rem; margin-top: 10px;}
+.footerConnect{font-size: 1.5rem; font-weight: 600; margin-top: 100px;}
 .footerImg{position: absolute; width: 24%; margin-left: 53%; margin-top: .5%;}
 
 @media screen and (max-width: 1024px) {
@@ -40,7 +40,7 @@
     .space{height: 6%;}
     .marqueeText{margin-bottom: 10px; font-size: 100px;}
     .footer{height: 32vh;}
-    .footerConnect{margin-top: 60;}
+    .footerConnect{margin-top: 60px;}
     .footerImg{margin-left: 47%;}
 }
 
@@ -57,6 +57,6 @@
     .footer{height: 29vh;}
     .footerTitle{font-size: 1.5rem;}
     .footerSubTitle{font-size: 1rem;}
-    .footerConnect{margin-top: 50; font-size: 1.3rem;}
+    .footerConnect{margin-top: 50px; font-size: 1.3rem;}
     .footerImg{margin-left: 41%;}
 }
