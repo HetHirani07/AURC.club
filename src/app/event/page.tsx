@@ -89,7 +89,7 @@ export default function Event(){
               </div>
             </div>
             <div style={{display: 'flex', alignItems: 'center', marginLeft: 30, marginTop: 40}}>
-                <img src='/rectBullet.png' style={{height: 10, width: 10}}></img>
+                <img src='/rectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>Robotics Workshop S16</span>
             </div>
             <div style={{marginLeft: 30}}>
@@ -107,7 +107,7 @@ export default function Event(){
             </div>
 
             <div style={{display: 'flex', alignItems: 'center', marginLeft: 30, marginTop: 40}}>
-                <img src='/rectBullet.png' style={{height: 10, width: 10}}></img>
+                <img src='/rectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>Entrance Test</span>
             </div>
             <div style={{marginLeft: 30}}>
@@ -119,7 +119,7 @@ export default function Event(){
             </div>
 
             <div style={{display: 'flex', alignItems: 'center', marginLeft: 30, marginTop: 40}}>
-                <img src='/rectBullet.png' style={{height: 10, width: 10}}></img>
+                <img src='/rectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>Workshop Modalities</span>
             </div>
             <div className={styles.modalities}>

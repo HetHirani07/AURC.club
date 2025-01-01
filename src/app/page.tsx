@@ -1,5 +1,4 @@
 'use client';
-import dynamic from 'next/dynamic';
 import Events from './components/events';
 import About from './components/about';
 import { useRef, useEffect, useLayoutEffect, useState} from "react";

@@ -6,7 +6,7 @@
 .navbarText:hover{border-bottom: #FF6B19 solid 2.5px}
 .main{height: 100%; position: relative; box-sizing: border-box;}
 .drone{width: 5%;position: absolute;z-index: 3; margin-left: .5%; margin-top: 38%}
-.droneLanding{position: absolute; height: .40%; width: 5%; background-color: #FF6B19; border-radius: 50}
+.droneLanding{position: absolute; height: .40%; width: 5%; background-color: #FF6B19; border-radius: 50px}
 .hero{border-left: solid; border-right: solid; border-color: #999; width: 86%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
 .title{font-size: 2rem; font-weight: 700; color: black; margin-left: 15px;}
 .cardBox{display: flex; flex-wrap: wrap; width: 93%; align-self: center; justify-content: space-between; gap: 50; margin-top: 20; margin-bottom: 80;}

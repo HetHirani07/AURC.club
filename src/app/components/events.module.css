@@ -4,7 +4,7 @@
 .card{height: 325px; width: 280px; overflow: hidden; display: flex; flex-direction: column; border: 2px solid #999; margin-left: 20px; margin-top: 20px;
     position: relative}
 .cardImg{height: 60%;object-fit: cover; box-sizing: border-box}
-.toggleImg{position: absolute; right: 0%; bottom: 0%; height: 50}
+.toggleImg{position: absolute; right: 0%; bottom: 0%; height: 50px}
 .eventName{font-size: 23px; font-weight: 600; margin-left: 5; margin-top: 10}
 .eventDate{font-size: 21px; margin-left: 5; margin-top: 10}
 
@@ -13,12 +13,12 @@
     .card{height: 300px; width: 255px;}
     .eventName{font-size: 21px;}
     .eventDate{font-size: 19px;}
-    .toggleImg{height: 45;}
+    .toggleImg{height: 45px;}
 }
 @media screen and (max-width: 768px) {
     .title{font-size: 1.6rem;}
     .card{height: 250px; width: 205px;}
     .eventName{font-size: 18px;}
     .eventDate{font-size: 16px; margin-top: 0;}
-    .toggleImg{height: 30;}
+    .toggleImg{height: 30px;}
 }
