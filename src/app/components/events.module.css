@@ -1,12 +1,13 @@
 .container{margin-left: 2.5rem; margin-top: 0rem;}
+.bullet{height: 10px; width: 10px}
 .title{font-size: 2rem; font-weight: 700; color: black; margin-left: 15px;}
 .subTitle{font-size: 1.15rem; margin-left: 25px}
 .card{height: 325px; width: 280px; overflow: hidden; display: flex; flex-direction: column; border: 2px solid #999; margin-left: 20px; margin-top: 20px;
     position: relative}
 .cardImg{height: 60%;object-fit: cover; box-sizing: border-box}
 .toggleImg{position: absolute; right: 0%; bottom: 0%; height: 50px}
-.eventName{font-size: 23px; font-weight: 600; margin-left: 5; margin-top: 10}
-.eventDate{font-size: 21px; margin-left: 5; margin-top: 10}
+.eventName{font-size: 23px; font-weight: 600; margin-left: 5px; margin-top: 10px}
+.eventDate{font-size: 21px; margin-left: 5px; margin-top: 10px}
 
 @media screen and (max-width: 1024px) {
     .title{font-size: 1.9rem;}
@@ -19,6 +20,6 @@
     .title{font-size: 1.6rem;}
     .card{height: 250px; width: 205px;}
     .eventName{font-size: 18px;}
-    .eventDate{font-size: 16px; margin-top: 0;}
+    .eventDate{font-size: 16px; margin-top: 0px;}
     .toggleImg{height: 30px;}
 }

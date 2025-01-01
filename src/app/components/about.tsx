@@ -3,7 +3,7 @@ export default function About(){
     return(
         <div className={styles.container}>
             <div style={{display: 'flex', alignItems: 'center'}}>
-                <img src='/rectBullet.png' style={{height: 10, width: 10}}></img>
+                <img src='/RectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>The Club</span>
             </div>
             <div className={styles.content}>

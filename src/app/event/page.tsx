@@ -89,10 +89,10 @@ export default function Event(){
               </div>
             </div>
             <div style={{display: 'flex', alignItems: 'center', marginLeft: 30, marginTop: 40}}>
-                <img src='/rectBullet.png' className={styles.bullet}></img>
+                <img src='/RectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>Robotics Workshop S16</span>
             </div>
-            <div style={{marginLeft: 30}}>
+            <div>
               <p className={styles.para}>The Adani University Robotics Club is going to organize two-days consecutive workshops cum 
               competition on “Introduction to Robotics” under the initiative of SSIP 2.0. The workshop 
               aims to create the next generation of embedded systems engineers with a practical outlook 
@@ -107,10 +107,10 @@ export default function Event(){
             </div>
 
             <div style={{display: 'flex', alignItems: 'center', marginLeft: 30, marginTop: 40}}>
-                <img src='/rectBullet.png' className={styles.bullet}></img>
+                <img src='/RectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>Entrance Test</span>
             </div>
-            <div style={{marginLeft: 30}}>
+            <div>
               <p className={styles.para}>An entrance exam will be conducted to select 24 participants. This test will be of 15 MCQs 
               (one mark each). There will be no negative-marking. Time given to complete the test will be 
               strictly 5 min. Most of the questions will be based on aptitude, basic about robots and 
@@ -119,7 +119,7 @@ export default function Event(){
             </div>
 
             <div style={{display: 'flex', alignItems: 'center', marginLeft: 30, marginTop: 40}}>
-                <img src='/rectBullet.png' className={styles.bullet}></img>
+                <img src='/RectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>Workshop Modalities</span>
             </div>
             <div className={styles.modalities}>

@@ -53,7 +53,7 @@ export default function Team(){
 
             <div className={styles.hero}>
                 <div style={{display: 'flex', alignItems: 'center', marginTop: 50, marginLeft: 40}}>
-                    <img src='/rectBullet.png' className={styles.bullet}></img>
+                    <img src='/RectBullet.png' className={styles.bullet}></img>
                     <span className={styles.title}>Team</span>
                 </div>
 

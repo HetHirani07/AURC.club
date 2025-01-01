@@ -6,7 +6,7 @@ export default function Events(){
     return (
         <div className={styles.container}>
             <div style={{display: 'flex', alignItems: 'center'}}>
-                <img src='/rectBullet.png' style={{height: 10, width: 10}}></img>
+                <img src='/RectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>Events</span>
             </div>
             {/* <p className={styles.subTitle}>Join events to learn and grow with better connections.</p> */}
