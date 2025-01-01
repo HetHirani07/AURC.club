@@ -2,7 +2,7 @@
 import dynamic from 'next/dynamic';
 import Events from './components/events';
 import About from './components/about';
-import { useRef, useEffect, useLayoutEffect} from "react";
+import { useRef, useEffect, useLayoutEffect, useState} from "react";
 import ReactLenis from "lenis/react";
 import Lenis from 'lenis';
 import { gsap} from 'gsap';
@@ -15,9 +15,26 @@ export default function Home(){
   //const Lenis = dynamic(() => import('lenis'), { ssr: false });
   const imageRef = useRef(null);
   const marqueeRef = useRef(null);
+  const [lenis, setLenis] = useState<any | null>(null); 
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const newlenis = new Lenis({
+        duration: 1,
+        easing: (t)=> 1 - Math.pow(1 - t, 2) 
+      });
+      setLenis(newlenis);
+  
+      function raf(time: number) {
+        newlenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+      requestAnimationFrame(raf);
+    }
+  }, []);
 
   const handleHome = () => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== 'undefined' && lenis) {
       const section = document.getElementById('home');
       if (section) {
         lenis.scrollTo(section);
@@ -25,7 +42,7 @@ export default function Home(){
     }
   };
   const handleEvent = () => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== 'undefined' && lenis) {
       const section = document.getElementById('events');
       if (section) {
         lenis.scrollTo(section);
@@ -46,25 +63,11 @@ export default function Home(){
       }
     }
   }, [imageRef]);
-
-    const lenis = new Lenis({
-      duration: 1,
-      easing: (t)=> 1 - Math.pow(1 - t, 2) 
-    });
-  
-  useEffect(() => {
-    function raf(time: number) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
-  }, []);
   
   const firstSectionRef = useRef<HTMLDivElement | null>(null);
-  
   useEffect(() => {
     const handleScroll = () => {
-      if (firstSectionRef.current) {
+      if (firstSectionRef.current && lenis) {
         const nextSection = document.getElementById('nav');
         if (nextSection) {
           lenis.scrollTo(nextSection); 
