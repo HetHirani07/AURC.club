@@ -7,7 +7,8 @@
 .navbarText:hover{border-bottom: #FF6B19 solid 2.5px}
 .main{height: 100%; position: relative; box-sizing: border-box;}
 .drone{width: 5%;position: absolute;z-index: 3; margin-left: .5%; margin-top: 38%}
-.droneLanding{position: absolute; height: .40%; width: 5%; background-color: #FF6B19; border-radius: 50px}
+.droneLanding1{position: absolute; margin-left: .5%; margin-top: 40.7%; height: 5px; width: 5%; background-color: #FF6B19; border-radius: 50px}
+.droneLanding2{position: absolute; margin-left: .5%; margin-top: 80.7%; height: 5px; width: 5%; background-color: #FF6B19; border-radius: 50px}
 .hero{border-left: solid; border-right: solid; border-color: #999; width: 86%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
 .imgContainer {overflow: hidden;margin: 10; position: relative;}  
 .slideContainer {display: flex; transition: transform 0.5s ease-in-out;}  
@@ -27,7 +28,6 @@
 @media screen and (max-width: 1024px) {
     .navbarContainer{height: 68px;}
     .navbarText{font-size: 1.1rem;}
-    .droneLanding{height: .25%;}
     .prevBtn{width: 45; height: 45; right: 5.25%;}
     .nextBtn{width: 45; height: 45;}
     .title{font-size: 1.9rem;}
@@ -41,7 +41,9 @@
 @media screen and (max-width: 768px) {
     .navbarContainer{height: 55px;}
     .navbarText{font-size: 1rem;}
-    .droneLanding{height: .25%;}
+    .drone{margin-top: 45%;}
+    .droneLanding1{margin-top: 47.7%;}
+    .droneLanding2{margin-top: 87.7%;}
     .prevBtn{width: 40; height: 40; right: 6.25%;}
     .nextBtn{width: 40; height: 40;}
     .title{font-size: 1.6rem;}

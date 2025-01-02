@@ -1,4 +1,4 @@
-.container{margin-left: 2.5rem; margin-top: 0rem;}
+.container{margin-left: 2.5rem; margin-top: 100px;}
 .bullet{height: 10px; width: 10px}
 .title{font-size: 2rem; font-weight: 700; color: black; margin-left: 15px;}
 .subTitle{font-size: 1.15rem; margin-left: 25px}
@@ -10,6 +10,7 @@
 .eventDate{font-size: 21px; margin-left: 5px; margin-top: 10px}
 
 @media screen and (max-width: 1024px) {
+    .container{margin-top: 80px;}
     .title{font-size: 1.9rem;}
     .card{height: 300px; width: 255px;}
     .eventName{font-size: 21px;}
@@ -17,6 +18,7 @@
     .toggleImg{height: 45px;}
 }
 @media screen and (max-width: 768px) {
+    .container{margin-top: 70px;}
     .title{font-size: 1.6rem;}
     .card{height: 250px; width: 205px;}
     .eventName{font-size: 18px;}

@@ -143,14 +143,14 @@ export default function Home(){
         <section id='secondPage' className={styles.secondPage}>
           <div>
             <img src="/drone.png" id="drone" className={styles.drone}></img>
-            <div className={styles.droneLanding} style={{marginLeft: '-49.65%', marginTop: '40.7%'}}></div>
-            <div className={styles.droneLanding} style={{marginLeft: '-49.65%', marginTop: '80.7%'}}></div>
+            <div className={styles.droneLanding1}></div>
+            <div className={styles.droneLanding2}></div>
           </div>
 
           <div className={styles.hero}>
           <div id='home' className={styles.space}></div>
 
-          <div className={styles.marqueeBox} >
+          <div className={styles.marqueeBox}>
             <p ref={marqueeRef} className={styles.marqueeText}>Adani University Robotics Club  Adani University Robotics Club</p>
           </div>
 
@@ -180,16 +180,19 @@ export default function Home(){
             </div>
           </div>
           </div>
+
+          <div id='events'><Events /></div>
+          <div id='about'><About /></div>
           </div>
         </section>
 
-        <section id='thirdPage' className={styles.thirdPage}>
+        {/* <section id='thirdPage' className={styles.thirdPage}>
           <div className={styles.hero}>
           <div id='events' className={styles.spaceA}></div>
             <div id='events'><Events /></div>
             <div id='about'><About /></div>
           </div>
-        </section>
+        </section> */}
         <footer className={styles.footer}>
           <div style={{display: 'flex', flexDirection: 'column', marginLeft: '10%', marginTop: '2%'}}>
           <span className={styles.footerTitle}>AURC</span>

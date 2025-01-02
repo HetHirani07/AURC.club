@@ -70,8 +70,8 @@ export default function Event(){
             <section className={styles.main}>
             <div>
             <img src="/drone.png" id="drone" className={styles.drone}></img>
-            <div className={styles.droneLanding} style={{marginLeft: '.5%', marginTop: '40.7%'}}></div>
-            <div className={styles.droneLanding} style={{marginLeft: '.5%', marginTop: '80.7%'}}></div>
+            <div className={styles.droneLanding1}></div>
+            <div className={styles.droneLanding2}></div>
             </div>
 
             <div className={styles.hero}>
