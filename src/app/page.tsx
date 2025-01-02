@@ -154,7 +154,7 @@ export default function Home(){
             <p ref={marqueeRef} className={styles.marqueeText}>Adani University Robotics Club  Adani University Robotics Club</p>
           </div>
 
-          <div style={{display: 'flex', flexDirection: 'row', marginTop: '0%'}}>
+          <div className={styles.dashboard}>
           <div className={styles.dashboardLeft}>
             <div className={styles.dashboardUpper}>
               <span className={styles.textUpper}>14+</span>
