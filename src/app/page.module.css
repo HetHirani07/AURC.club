@@ -1,5 +1,5 @@
 .firstPage{ display: flex; justify-content: center; height: 100vh; overflow: hidden; box-sizing: border-box;}
-.secondPage{height: 100%; border: solid; position: relative; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}
+.secondPage{height: 100%; position: relative; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}
 .thirdPage{height: 100%; box-sizing: border-box; position: relative;}
 .logoImpression{height: 200px; will-change: transform}
 .navbar{position: sticky; top: 0; left: 0; width: 100%; display: flex; justify-content: center; align-content: center; z-index: 4;}
@@ -12,7 +12,7 @@
 .hero{border-left: solid; border-right: solid; border-color: #999; width: 86%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
 .space{height: 100px; border: solid;}
 .spaceA{height: 10vh;}
-.dashboard{display: flex; flex-direction: row; border: solid; height: 550px;}
+.dashboard{display: flex; flex-direction: row; height: 550px;}
 .dashboardLeft{display: 'flex'; flex-direction: column; height: 100%; width: 22.30%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-color: #999}
 .dashboardUpper{height: 50%; width: 100%; border-bottom: solid; border-color: #999; display: flex; flex-direction: column; justify-content: center; align-content: center}
 .dashboardLower{height: 50%; width: 100%; display: flex;flex-direction: column; justify-content: center; align-content: center}
@@ -24,7 +24,7 @@
 .drone{width: 5%;position: absolute;z-index: 3; margin-left: -49.5%; margin-top: 38%}
 .droneLanding1{position: absolute; margin-left: -49.65%; margin-top: 40.7%; height: 5px; width: 5%; background-color: #FF6B19; border-radius: 50px}
 .droneLanding2{position: absolute; margin-left: -49.65%; margin-top: 80.7%; height: 5px; width: 5%; background-color: #FF6B19; border-radius: 50px}
-.marqueeBox{padding-top: 10px; padding-bottom: 10px; width: 100%; height: 100px; display: flex; align-items: center; overflow: hidden; border: solid;}
+.marqueeBox{padding-top: 10px; padding-bottom: 10px; width: 100%; height: 100px; display: flex; align-items: center; overflow: hidden;}
 .marqueeText{font-size: 120px; display: flex; font-weight: 700; white-space: nowrap}
 .footer{display: flex; position: relative; height: 42vh; width: 100%; border-top: dashed #999; box-sizing: border-box; overflow: hidden;}
 .footerTitle{font-size: 1.75rem; font-weight: 700;}
