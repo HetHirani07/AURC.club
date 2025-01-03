@@ -166,8 +166,8 @@ export default function Home(){
             </div>
           </div>
 
-          <div style={{height: '100%', width: '56.35%', boxSizing: 'border-box', border: 'solid', borderColor: '#999'}}>
-            <img src="/robot.png" style={{width: '100%', height: '100%', objectFit: 'cover'}}></img>
+          <div className={styles.dashboardRobot}>
+            <img src="/robot.png" alt='robot' style={{width: '100%', height: '100%', objectFit: 'cover'}}></img>
           </div>
 
           <div className={styles.dashboardRight}>

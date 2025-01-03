@@ -17,6 +17,7 @@
 .dashboardLower{height: 50%; width: 100%; display: flex;flex-direction: column; justify-content: center; align-content: center}
 .dashboardLower:hover{color: #FF6B19;}
 .dashboardUpper:hover{color: #FF6B19;}
+.dashboardRobot{height: 100%; width: 56.35%; box-sizing: border-box; border: solid; border-color: #999}
 .dashboardRight{display: 'flex'; flex-direction: column; height: 100%; width: 21.5%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-color: #999;}
 .textUpper{font-size: 100px; font-weight: 600; align-self: center}
 .textLower{font-size: 25px; font-weight: 100; align-self: center}
@@ -31,18 +32,15 @@
 .footerConnect{font-size: 1.5rem; font-weight: 600; margin-top: 100px;}
 .footerImg{position: absolute; width: 24%; margin-left: 53%; margin-top: .5%;}
 
-@media screen and (max-width: 1024px) {
-    .logoImpression{height: 180px;}
-    .secondPage{height: 190vh;}
-    .navbarContainer{height: 68px;}
-    .navbarText{font-size: 1.1rem;}
-    .textUpper{font-size: 80px}
-    .textLower{font-size: 20px}
-    .space{height: 4%;}
-    .marqueeText{font-size: 100px;}
-    .footer{height: 32vh;}
-    .footerConnect{margin-top: 60px;}
-    .footerImg{margin-left: 47%;}
+@media screen and (max-width: 425px) {
+    .logoImpression{height: 100px;}
+    .navbarContainer{height: 25px;}
+    .navbarText{font-size: .5rem;}
+    /* .drone{display: none;}
+    .droneLanding1{display: none;}
+    .droneLanding2{display: none;} */
+    .textUpper{font-size: 40px;}
+    .textLower{font-size: 12px;}
 }
 
 @media screen and (max-width: 768px) {
@@ -64,3 +62,18 @@
     .footerConnect{margin-top: 50px; font-size: 1.3rem;}
     .footerImg{margin-left: 41%;}
 }
+
+@media screen and (max-width: 1024px) {
+    .logoImpression{height: 180px;}
+    .secondPage{height: 190vh;}
+    .navbarContainer{height: 68px;}
+    .navbarText{font-size: 1.1rem;}
+    .textUpper{font-size: 80px}
+    .textLower{font-size: 20px}
+    .space{height: 4%;}
+    .marqueeText{font-size: 100px;}
+    .footer{height: 32vh;}
+    .footerConnect{margin-top: 60px;}
+    .footerImg{margin-left: 47%;}
+}
+
