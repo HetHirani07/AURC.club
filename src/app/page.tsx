@@ -181,7 +181,7 @@ export default function Home(){
           </div>
           </div>
 
-          <div id='events'><Events /></div>
+          <div id='events' className={styles.eventComp}><Events /></div>
           <div id='about'><About /></div>
           </div>
         </section>

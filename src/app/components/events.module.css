@@ -1,8 +1,8 @@
-.container{margin-left: 1.1rem; margin-top: 500px;}
+.container{margin-left: 1.1rem; margin-top: 50px}
 .bullet{height: 8px; width: 8px}
 .title{font-size: 1.5rem; font-weight: 700; color: black; margin-left: 10px;}
 .subTitle{font-size: 1.15rem; margin-left: 25px}
-.card{height: 290px; width: 250px; overflow: hidden; display: flex; flex-direction: column; border: 2px solid #999; margin-left: 0px; margin-top: 20px;
+.card{height: 290px; width: 250px; overflow: hidden; display: flex; flex-direction: column; border: 1px solid #999; margin-left: 0px; margin-top: 20px;
     position: relative}
 .cardImg{height: 60%;object-fit: cover; box-sizing: border-box}
 .toggleImg{position: absolute; right: 0%; bottom: 0%; height: 40px}
