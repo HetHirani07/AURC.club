@@ -176,7 +176,7 @@ export default function Home(){
               <span className={styles.textLower}>Participants</span>
             </div>
             <div style={{height: '50%', width: '100%', display: 'flex'}}>
-              <img src="/evolve.png" style={{width: '70%', height: '70%'}}></img>
+              <img src="/evolve.png" className={styles.evolve}></img>
             </div>
           </div>
           </div>

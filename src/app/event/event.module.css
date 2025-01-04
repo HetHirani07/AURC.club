@@ -21,9 +21,9 @@
 .para{font-size: .9rem; padding: 10px; width: 90%; margin-left: 10px;}
 .modalities{font-size: .9rem; margin-left: 10px; width: 90%; padding: 10px; margin-bottom: 10vh;}
 .footer{display: flex; position: relative; height: 270px; width: 100%; border-top: dashed #999; box-sizing: border-box; overflow: hidden;}
-.footerTitle{font-size: 1.3rem; font-weight: 700; margin-top: 20px; margin-left: 30px;}
-.footerSubTitle{color: #333; font-size: 1rem; margin-top: 10px; margin-left: 30px;}
-.footerConnect{font-size: 1.3rem; font-weight: 700; margin-top: 70px; margin-left: 30px;}
+.footerTitle{font-size: 1.3rem; font-weight: 700; margin-top: 20px; margin-left: 30px; width: 100%;}
+.footerSubTitle{color: #333; font-size: 1rem; margin-top: 10px; margin-left: 30px; width: 100%;}
+.footerConnect{font-size: 1.3rem; font-weight: 700; margin-top: 70px; margin-left: 30px; width: 100%}
 .footerImg{position: absolute; object-fit: cover; width: 31%; left: 550px; top: 10px; display: none;}
 
 @media screen and (min-width: 426px) and (max-width: 768px){
@@ -36,12 +36,33 @@
     .prevBtn{height: 40px; width: 40px; right: 40px;}
     .nextBtn{height: 40px; width: 40px;}
     .bullet{height: 10px; width: 10px;}
-    .titleContainer{margin-left: 20px;}
+    .titleContainer{margin-left: 1.5rem;}
     .title{margin-left: 15px; font-size: 1.6rem;}
-    .para{font-size: 1.1rem;}
-    .modalities{font-size: 1.1rem;}
+    .para{font-size: 1.1rem; margin-left: 1rem;}
+    .modalities{font-size: 1.1rem; margin-left: 1rem;}
     .footerTitle{font-size: 1.5rem;}
     .footerSubTitle{font-size: 1.05rem;}
     .footerConnect{font-size: 1.5rem;}
     .footerImg{display: block;}
+}
+
+@media screen and (min-width: 769px) {
+    /* desktop */
+    .navbarContainer{height: 90px; width: 96%;}
+    .hero{width: 86%;}
+    .drone{display: block; top: 400px; width: 65px;}
+    .droneLanding1{display: block; left: .45%; top: 435px; width: 55px;}
+    .droneLanding2{display: block; left: .45%; top: 956px; width: 55px;}
+    .prevBtn{height: 45px; width: 45px; right: 45px;}
+    .nextBtn{height: 45px; width: 45px;}
+    .bullet{height: 10px; width: 10px;}
+    .titleContainer{margin-left: 2rem; margin-top: 2.5rem;}
+    .title{margin-left: 15px; font-size: 1.9rem;}
+    .para{font-size: 1.3rem; margin-left: 1rem;}
+    .modalities{font-size: 1.3rem; margin-left: 1rem;}
+    .footer{height: 320px;}
+    .footerTitle{font-size: 1.75rem; margin-left: 30%; margin-top: 30px;}
+    .footerSubTitle{font-size: 1.1rem; margin-left: 30%;}
+    .footerConnect{font-size: 1.75rem; margin-left: 30%;}
+    .footerImg{display: block; left: 80%; top: 5px; width: 24%;}
 }

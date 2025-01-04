@@ -19,3 +19,13 @@
     .eventDate{font-size: 19px;}
     .toggleImg{height: 45px;}
 }
+
+@media screen and (min-width: 769px) {
+    /* desktops */
+    .container{margin-left: 2.5rem; margin-top: 80px;}
+    .bullet{width: 10px; height: 10px;}
+    .title{font-size: 1.9rem; margin-left: 15px;}
+    .card{height: 300px;width: 270px;}
+    .eventName{font-size: 21px;}
+    .eventDate{font-size: 19px;}
+}
