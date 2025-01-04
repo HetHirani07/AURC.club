@@ -32,4 +32,29 @@
 .footerTitle{font-size: 1.3rem; font-weight: 700; margin-top: 20px; margin-left: 30px;}
 .footerSubTitle{color: #333; font-size: 1rem; margin-top: 10px; margin-left: 30px;}
 .footerConnect{font-size: 1.3rem; font-weight: 700; margin-top: 70px; margin-left: 30px;}
-.footerImg{position: absolute; width: 24%; margin-left: 53%; margin-top: .5%;}
+.footerImg{position: absolute; width: 31%; left: 550px; top: 10px; display: none;}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    /* tablets */
+    .logoImpression{height: 150px;}
+    .navbarContainer{height: 55px; width: 96%;}
+    .hero{width: 86%;}
+    .drone{left: -3px; top: 400px;}
+    .droneLanding1{left: 0; top: 427px}
+    .droneLanding2{left: 0; top: 827px}
+    .dashboard{height: 445px;}
+    .dashboardLeft{width: 22.30%; border-right: none;}
+    .dashboardRobot{display: block;}
+    .dashboardRight{width: 21.5%;}
+    .evolve{width: 80%;}
+    .textUpper{font-size: 63px;}
+    .textLower{font-size: 16px;}
+    .space{height: 30px;}
+    .marqueeBox{height: 90px;}
+    .marqueeText{font-size: 90px;}
+    .eventComp{margin-top: 0px;}
+    .footerTitle{font-size: 1.5rem;}
+    .footerSubTitle{font-size: 1.05rem;}
+    .footerConnect{font-size: 1.5rem;}
+    .footerImg{display: block;}
+}
