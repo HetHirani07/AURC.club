@@ -3,15 +3,15 @@
 .thirdPage{height: 100%; box-sizing: border-box; position: relative;}
 .logoImpression{height: 100px; will-change: transform}
 .navbar{position: sticky; top: 0; left: 0; width: 100%; display: flex; justify-content: center; align-content: center; z-index: 4;}
-.navbarContainer{ width: 96%; height: 40px; position: relative; display: flex;}
+.navbarContainer{ width: 100%; height: 40px; position: relative; display: flex;}
 .navbarBgImg{ width: 100%; justify-self: center;}
 .navbarLogo{ position: absolute; height: 60%; align-self: center; margin-left: 2%}
 .navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: flex; justify-content: space-between}
 .navbarText{color: #333; text-decoration: none; font-size: 1.15rem;}
 .navbarText:hover{border-bottom: #FF6B19 solid 2.5px}
-.hero{border-left: solid; border-right: solid; border-color: #999; width: 86%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
+.hero{border-left: solid; border-right: solid; border-color: #999; width: 92%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
 .space{height: 20px;}
-.dashboard{display: flex; flex-direction: row; height: 373px; width: 100%;}
+.dashboard{display: flex; flex-direction: row; height: 365px; width: 100%;}
 .dashboardLeft{display: 'flex'; flex-direction: column; height: 100%; width: 50%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-right: solid; border-color: #999}
 .dashboardUpper{height: 50%; width: 100%; border-bottom: solid; border-color: #999; display: flex; flex-direction: column; justify-content: center; align-content: center}
 .dashboardLower{height: 50%; width: 100%; display: flex;flex-direction: column; justify-content: center; align-content: center}
@@ -19,8 +19,8 @@
 .dashboardUpper:hover{color: #FF6B19;}
 .dashboardRobot{height: 100%; width: 56.35%; box-sizing: border-box; border: solid; border-color: #999; display: none;}
 .dashboardRight{display: 'flex'; flex-direction: column; height: 100%; width: 50%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-color: #999;}
-.textUpper{font-size: 70px; font-weight: 600; align-self: center}
-.textLower{font-size: 16px; font-weight: 100; align-self: center}
+.textUpper{font-size: 65px; font-weight: 600; align-self: center}
+.textLower{font-size: 15px; font-weight: 100; align-self: center}
 .drone{width: 50px;position: absolute;z-index: 3; left: 50px; top: 520px}
 .droneLanding1{position: absolute; left: 52.5px; top: 547px; height: 4px; width: 45px; background-color: #FF6B19; border-radius: 50px}
 .droneLanding2{position: absolute; left: 52.5px; top: 947px; height: 4px; width: 45px; background-color: #FF6B19; border-radius: 50px}
@@ -29,5 +29,5 @@
 .footer{display: flex; position: relative; height: 270px; width: 100%; border-top: dashed #999; box-sizing: border-box; overflow: hidden;}
 .footerTitle{font-size: 1.3rem; font-weight: 700; margin-top: 20px; margin-left: 30px;}
 .footerSubTitle{color: #333; font-size: 1rem; margin-top: 10px; margin-left: 30px;}
-.footerConnect{font-size: 1.3rem; font-weight: 600; margin-top: 70px; margin-left: 30px;}
+.footerConnect{font-size: 1.3rem; font-weight: 700; margin-top: 70px; margin-left: 30px;}
 .footerImg{position: absolute; width: 24%; margin-left: 53%; margin-top: .5%;}
