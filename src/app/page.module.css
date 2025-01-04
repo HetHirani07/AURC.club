@@ -3,15 +3,15 @@
 .thirdPage{height: 100%; box-sizing: border-box; position: relative;}
 .logoImpression{height: 100px; will-change: transform}
 .navbar{position: sticky; top: 0; left: 0; width: 100%; display: flex; justify-content: center; align-content: center; z-index: 4;}
-.navbarContainer{ width: 100%; height: 40px; position: relative; display: flex;}
+.navbarContainer{ width: 100%; height: 43px; position: relative; display: flex;}
 .navbarBgImg{ width: 100%; justify-self: center;}
-.navbarLogo{ position: absolute; height: 60%; align-self: center; margin-left: 2%}
+.navbarLogo{ position: absolute; height: 62%; align-self: center; margin-left: 2%}
 .navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: flex; justify-content: space-between}
 .navbarText{color: #333; text-decoration: none; font-size: 1.15rem;}
 .navbarText:hover{border-bottom: #FF6B19 solid 2.5px}
 .hero{border-left: solid; border-right: solid; border-color: #999; width: 92%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
 .space{height: 20px;}
-.dashboard{display: flex; flex-direction: row; height: 365px; width: 100%;}
+.dashboard{display: flex; flex-direction: row; height: 345px; width: 100%;}
 .dashboardLeft{display: 'flex'; flex-direction: column; height: 100%; width: 50%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-right: solid; border-color: #999}
 .dashboardUpper{height: 50%; width: 100%; border-bottom: solid; border-color: #999; display: flex; flex-direction: column; justify-content: center; align-content: center}
 .dashboardLower{height: 50%; width: 100%; display: flex;flex-direction: column; justify-content: center; align-content: center}
@@ -19,7 +19,8 @@
 .dashboardUpper:hover{color: #FF6B19;}
 .dashboardRobot{height: 100%; width: 56.35%; box-sizing: border-box; border: solid; border-color: #999; display: none;}
 .dashboardRight{display: 'flex'; flex-direction: column; height: 100%; width: 50%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-color: #999;}
-.textUpper{font-size: 65px; font-weight: 700; align-self: center}
+.evolve{width: 75%;}
+.textUpper{font-size: 63px; font-weight: 700; align-self: center}
 .textLower{font-size: 15px; font-weight: 100; align-self: center}
 .drone{width: 50px;position: absolute;z-index: 3; left: 50px; top: 520px}
 .droneLanding1{position: absolute; left: 52.5px; top: 547px; height: 4px; width: 45px; background-color: #FF6B19; border-radius: 50px}
