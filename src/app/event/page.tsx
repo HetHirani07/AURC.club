@@ -88,7 +88,7 @@ export default function Event(){
                 ))}
               </div>
             </div>
-            <div style={{display: 'flex', alignItems: 'center', marginLeft: 30, marginTop: 40}}>
+            <div className={styles.titleContainer}>
                 <img src='/RectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>Robotics Workshop S16</span>
             </div>
@@ -106,7 +106,7 @@ export default function Event(){
               of students by providing practical skills and fostering interdisciplinary learning.</p>
             </div>
 
-            <div style={{display: 'flex', alignItems: 'center', marginLeft: 30, marginTop: 40}}>
+            <div className={styles.titleContainer}>
                 <img src='/RectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>Entrance Test</span>
             </div>
@@ -118,7 +118,7 @@ export default function Event(){
               <p className={styles.para}>The date, time and link of the test will be shown in this section at the time of test. Please keep checking for the details.</p>
             </div>
 
-            <div style={{display: 'flex', alignItems: 'center', marginLeft: 30, marginTop: 40}}>
+            <div className={styles.titleContainer}>
                 <img src='/RectBullet.png' className={styles.bullet}></img>
                 <span className={styles.title}>Workshop Modalities</span>
             </div>
@@ -135,7 +135,7 @@ export default function Event(){
             </div>
             </section>
             <footer className={styles.footer}>
-                    <div style={{display: 'flex', flexDirection: 'column', marginLeft: '10%', marginTop: '2%'}}>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
                     <span className={styles.footerTitle}>AURC</span>
                     <span className={styles.footerSubTitle}>Learn | Connect | Evolve</span>
                     <span className={styles.footerConnect}>Connect With Us</span>
