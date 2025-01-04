@@ -176,7 +176,7 @@ export default function Home(){
               <span className={styles.textLower}>Participants</span>
             </div>
             <div style={{height: '50%', width: '100%', display: 'flex'}}>
-              <img src="/evolve.png" style={{width: '65%', height: '67%'}}></img>
+              <img src="/evolve.png" style={{width: '70%', height: '70%'}}></img>
             </div>
           </div>
           </div>
@@ -194,7 +194,7 @@ export default function Home(){
           </div>
         </section> */}
         <footer className={styles.footer}>
-          <div style={{display: 'flex', flexDirection: 'column', marginLeft: '10%', marginTop: '2%'}}>
+          <div style={{display: 'flex', flexDirection: 'column'}}>
           <span className={styles.footerTitle}>AURC</span>
           <span className={styles.footerSubTitle}>Learn | Connect | Evolve</span>
           <span className={styles.footerConnect}>Connect With Us</span>

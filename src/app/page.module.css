@@ -1,79 +1,33 @@
 .firstPage{ display: flex; justify-content: center; height: 100vh; overflow: hidden; box-sizing: border-box;}
 .secondPage{height: 100%; position: relative; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}
 .thirdPage{height: 100%; box-sizing: border-box; position: relative;}
-.logoImpression{height: 200px; will-change: transform}
+.logoImpression{height: 100px; will-change: transform}
 .navbar{position: sticky; top: 0; left: 0; width: 100%; display: flex; justify-content: center; align-content: center; z-index: 4;}
-.navbarContainer{ width: 96%; height: 90px; position: relative; display: flex;}
+.navbarContainer{ width: 96%; height: 40px; position: relative; display: flex;}
 .navbarBgImg{ width: 100%; justify-self: center;}
 .navbarLogo{ position: absolute; height: 60%; align-self: center; margin-left: 2%}
 .navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: flex; justify-content: space-between}
 .navbarText{color: #333; text-decoration: none; font-size: 1.15rem;}
 .navbarText:hover{border-bottom: #FF6B19 solid 2.5px}
 .hero{border-left: solid; border-right: solid; border-color: #999; width: 86%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
-.space{height: 70px;}
-.dashboard{display: flex; flex-direction: row; height: 550px;}
-.dashboardLeft{display: 'flex'; flex-direction: column; height: 100%; width: 22.30%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-color: #999}
+.space{height: 20px;}
+.dashboard{display: flex; flex-direction: row; height: 373px; width: 100%;}
+.dashboardLeft{display: 'flex'; flex-direction: column; height: 100%; width: 50%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-right: solid; border-color: #999}
 .dashboardUpper{height: 50%; width: 100%; border-bottom: solid; border-color: #999; display: flex; flex-direction: column; justify-content: center; align-content: center}
 .dashboardLower{height: 50%; width: 100%; display: flex;flex-direction: column; justify-content: center; align-content: center}
 .dashboardLower:hover{color: #FF6B19;}
 .dashboardUpper:hover{color: #FF6B19;}
-.dashboardRobot{height: 100%; width: 56.35%; box-sizing: border-box; border: solid; border-color: #999}
-.dashboardRight{display: 'flex'; flex-direction: column; height: 100%; width: 21.5%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-color: #999;}
-.textUpper{font-size: 100px; font-weight: 600; align-self: center}
-.textLower{font-size: 25px; font-weight: 100; align-self: center}
-.drone{width: 5%;position: absolute;z-index: 3; margin-left: -49.5%; margin-top: 38%}
-.droneLanding1{position: absolute; margin-left: -49.65%; margin-top: 40.7%; height: 5px; width: 5%; background-color: #FF6B19; border-radius: 50px}
-.droneLanding2{position: absolute; margin-left: -49.65%; margin-top: 80.7%; height: 5px; width: 5%; background-color: #FF6B19; border-radius: 50px}
-.marqueeBox{padding-top: 10px; padding-bottom: 15px; width: 100%; height: 110px; display: flex; align-items: center; overflow: hidden;}
-.marqueeText{font-size: 120px; display: flex; font-weight: 700; white-space: nowrap}
-.footer{display: flex; position: relative; height: 42vh; width: 100%; border-top: dashed #999; box-sizing: border-box; overflow: hidden;}
-.footerTitle{font-size: 1.75rem; font-weight: 700;}
-.footerSubTitle{color: #333; font-size: 1.1rem; margin-top: 10px;}
-.footerConnect{font-size: 1.5rem; font-weight: 600; margin-top: 100px;}
+.dashboardRobot{height: 100%; width: 56.35%; box-sizing: border-box; border: solid; border-color: #999; display: none;}
+.dashboardRight{display: 'flex'; flex-direction: column; height: 100%; width: 50%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-color: #999;}
+.textUpper{font-size: 70px; font-weight: 600; align-self: center}
+.textLower{font-size: 16px; font-weight: 100; align-self: center}
+.drone{width: 50px;position: absolute;z-index: 3; left: 50px; top: 520px}
+.droneLanding1{position: absolute; left: 52.5px; top: 547px; height: 4px; width: 45px; background-color: #FF6B19; border-radius: 50px}
+.droneLanding2{position: absolute; left: 52.5px; top: 947px; height: 4px; width: 45px; background-color: #FF6B19; border-radius: 50px}
+.marqueeBox{padding-top: 10px; padding-bottom: 15px; width: 100%; height: 70px; display: flex; align-items: center; overflow: hidden;}
+.marqueeText{font-size: 70px; display: flex; font-weight: 700; white-space: nowrap;}
+.footer{display: flex; position: relative; height: 270px; width: 100%; border-top: dashed #999; box-sizing: border-box; overflow: hidden;}
+.footerTitle{font-size: 1.3rem; font-weight: 700; margin-top: 20px; margin-left: 30px;}
+.footerSubTitle{color: #333; font-size: 1rem; margin-top: 10px; margin-left: 30px;}
+.footerConnect{font-size: 1.3rem; font-weight: 600; margin-top: 70px; margin-left: 30px;}
 .footerImg{position: absolute; width: 24%; margin-left: 53%; margin-top: .5%;}
-
-@media screen and (max-width: 425px) {
-    .logoImpression{height: 100px;}
-    .navbarContainer{height: 25px;}
-    .navbarText{font-size: .5rem;}
-    /* .drone{display: none;}
-    .droneLanding1{display: none;}
-    .droneLanding2{display: none;} */
-    .textUpper{font-size: 40px;}
-    .textLower{font-size: 12px;}
-}
-
-@media screen and (max-width: 768px) {
-    .logoImpression{height: 150px;}
-    .secondPage{height: 170vh;}
-    .navbarContainer{height: 55px;}
-    .navbarText{font-size: 1rem;}
-    .drone{margin-top: 45%;}
-    .droneLanding1{margin-top: 47.7%;}
-    .droneLanding2{margin-top: 87.7%;}
-    .textUpper{font-size: 60px}
-    .textLower{font-size: 16px}
-    .space{height: 3%;}
-    .marqueeBox{padding-top: 0px;}
-    .marqueeText{font-size: 90px;}
-    .footer{height: 29vh;}
-    .footerTitle{font-size: 1.5rem;}
-    .footerSubTitle{font-size: 1rem;}
-    .footerConnect{margin-top: 50px; font-size: 1.3rem;}
-    .footerImg{margin-left: 41%;}
-}
-
-@media screen and (max-width: 1024px) {
-    .logoImpression{height: 180px;}
-    .secondPage{height: 190vh;}
-    .navbarContainer{height: 68px;}
-    .navbarText{font-size: 1.1rem;}
-    .textUpper{font-size: 80px}
-    .textLower{font-size: 20px}
-    .space{height: 4%;}
-    .marqueeText{font-size: 100px;}
-    .footer{height: 32vh;}
-    .footerConnect{margin-top: 60px;}
-    .footerImg{margin-left: 47%;}
-}
-

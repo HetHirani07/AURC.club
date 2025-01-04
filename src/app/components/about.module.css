@@ -1,13 +1,4 @@
-.container{margin-left: 2.5rem; margin-top: 4rem; margin-bottom: 100px;}
-.bullet{height: 10px; width: 10px}
-.title{font-size: 2rem; font-weight: 700; color: black; margin-left: 15px;}
-.content{margin-left: 25px; margin-top: 5px; font-size: 1.15rem; word-spacing: 0rem; width: 90%;}
-
-@media screen and (max-width: 1024px) {
-    .title{font-size: 1.9rem;}
-    .content{font-size: 17px; margin-bottom: 50px;}
-}
-@media screen and (max-width: 768px) {
-    .title{font-size: 1.6rem;}
-    .content{font-size: 16px; margin-bottom: 25px;}
-}
+.container{margin-left: 1rem; margin-top: 4rem; margin-bottom: 100px;}
+.bullet{height: 8px; width: 8px}
+.title{font-size: 1.5rem; font-weight: 700; color: black; margin-left: 10px;}
+.content{margin-left: 25px; margin-top: 5px; font-size: .9rem; word-spacing: 0rem; width: 90%;}

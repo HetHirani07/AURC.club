@@ -1,27 +1,10 @@
-.container{margin-left: 2.5rem; margin-top: 100px;}
-.bullet{height: 10px; width: 10px}
-.title{font-size: 2rem; font-weight: 700; color: black; margin-left: 15px;}
+.container{margin-left: 1rem; margin-top: 500px;}
+.bullet{height: 8px; width: 8px}
+.title{font-size: 1.5rem; font-weight: 700; color: black; margin-left: 10px;}
 .subTitle{font-size: 1.15rem; margin-left: 25px}
-.card{height: 325px; width: 280px; overflow: hidden; display: flex; flex-direction: column; border: 2px solid #999; margin-left: 20px; margin-top: 20px;
+.card{height: 290px; width: 250px; overflow: hidden; display: flex; flex-direction: column; border: 2px solid #999; margin-left: 20px; margin-top: 20px;
     position: relative}
 .cardImg{height: 60%;object-fit: cover; box-sizing: border-box}
-.toggleImg{position: absolute; right: 0%; bottom: 0%; height: 50px}
-.eventName{font-size: 23px; font-weight: 600; margin-left: 5px; margin-top: 10px}
-.eventDate{font-size: 21px; margin-left: 5px; margin-top: 10px}
-
-@media screen and (max-width: 1024px) {
-    .container{margin-top: 80px;}
-    .title{font-size: 1.9rem;}
-    .card{height: 300px; width: 255px;}
-    .eventName{font-size: 21px;}
-    .eventDate{font-size: 19px;}
-    .toggleImg{height: 45px;}
-}
-@media screen and (max-width: 768px) {
-    .container{margin-top: 70px;}
-    .title{font-size: 1.6rem;}
-    .card{height: 250px; width: 205px;}
-    .eventName{font-size: 18px;}
-    .eventDate{font-size: 16px; margin-top: 0px;}
-    .toggleImg{height: 30px;}
-}
+.toggleImg{position: absolute; right: 0%; bottom: 0%; height: 40px}
+.eventName{font-size: 19px; font-weight: 600; margin-left: 5px; margin-top: 10px}
+.eventDate{font-size: 17px; margin-left: 5px; margin-top: 10px}
