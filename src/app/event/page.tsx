@@ -1,11 +1,17 @@
 'use client';
 import ReactLenis from 'lenis/react';
 import { useState, useEffect, useRef, useLayoutEffect} from 'react';
+import {Poppins} from '@next/font/google';
 import { gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import styles from './event.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+});
 
 export default function Event(){
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,7 +57,7 @@ export default function Event(){
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
       </Head>
-        <main>
+        <main className={poppins.className}>
             <div style={{position: 'relative'}}>
             <nav id="nav" className={styles.navbar}>
             <div className={styles.navbarContainer}>
