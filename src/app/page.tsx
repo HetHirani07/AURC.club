@@ -4,15 +4,19 @@ import About from './components/about';
 import { useRef, useEffect, useLayoutEffect, useState} from "react";
 import ReactLenis from "lenis/react";
 import Lenis from 'lenis';
+import {Poppins} from '@next/font/google';
 import { gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import styles from './page.module.css';
 import Link from 'next/link';
 import Head from 'next/head';
-import { feSpotLight } from 'framer-motion/client';
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+});
 
 export default function Home(){
-  //const Lenis = dynamic(() => import('lenis'), { ssr: false });
   const imageRef = useRef(null);
   const marqueeRef = useRef(null);
   const [lenis, setLenis] = useState<any | null>(null); 
@@ -114,11 +118,14 @@ export default function Home(){
     <ReactLenis root>
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale = 1'/>
+      {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" /> */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
       </Head>
-      <main style={{margin: 0, translate: '0 0',}}>
+      <main style={{margin: 0, translate: '0 0',}} className={poppins.className}>
 
         <section ref={firstSectionRef} className={styles.firstPage}>
           <div style={{ alignSelf: 'center'}} ref={imageRef}>
