@@ -5,6 +5,7 @@
 .navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: none; justify-content: space-between;}
 .navbarText{color: #333; font-weight: 400; text-decoration: none; font-size: 1.15rem;}
 .navbarText:hover{border-bottom: #FF6B19 solid 2.5px}
+.navbarIcon{display: flex; flex-direction: row; flex-wrap: wrap; width: 22px; position: absolute; align-self: center; right: 3%;}
 .main{height: 100%; position: relative; box-sizing: border-box;}
 .drone{width: 5%;position: absolute;z-index: 3; left: 2px; top: 400px; display: none;}
 .droneLanding1{position: absolute; left: 2px; top: 432; height: 4px; width: 5%; background-color: #FF6B19; border-radius: 50px; display: none;}
@@ -30,6 +31,7 @@
     /* tablets */
     .navbarContainer{height: 55px; width: 96%;}
     .navbarContent{display: flex;}
+    .navbarIcon{display: none;}
     .hero{width: 86%;}
     .drone{display:block;}
     .droneLanding1{display: block;}
@@ -51,6 +53,7 @@
     /* desktop */
     .navbarContainer{height: 90px; width: 96%;}
     .navbarContent{display: flex;}
+    .navbarIcon{display: none;}
     .hero{width: 86%;}
     .drone{display: block; top: 400px; width: 65px;}
     .droneLanding1{display: block; left: .45%; top: 435px; width: 55px;}

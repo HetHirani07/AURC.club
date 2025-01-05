@@ -40,6 +40,7 @@
     .logoImpression{height: 150px;}
     .navbarContainer{height: 55px; width: 96%;}
     .navbarContent{display: flex;}
+    .navbarIcon{display: none;}
     .hero{width: 86%;}
     .drone{left: -3px; top: 400px;}
     .droneLanding1{left: 0; top: 427px}
@@ -66,6 +67,7 @@
     .logoImpression{height: 200px;}
     .navbarContainer{height: 90px; width: 96%;}
     .navbarContent{display: flex;}
+    .navbarIcon{display: none}
     .hero{width: 86%;}
     .drone{left: .07%; top: 400px; width: 65px;}
     .droneLanding1{left: .45%; top: 435px; width: 55px;}
