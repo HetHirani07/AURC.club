@@ -13,7 +13,7 @@
 .imgContainer {overflow: hidden;margin: 0px; position: relative;}  
 .slideContainer {display: flex; transition: transform 0.5s ease-in-out;}  
 .Img {flex: 0 0 100%; width: 100%; }
-.prevBtn{position: absolute; height: 25px; width: 25px; bottom: 0%; right: 4%; z-index: 1;}
+.prevBtn{position: absolute; height: 25px; width: 25px; bottom: 0%; right: 25px; z-index: 1;}
 .nextBtn{position: absolute; height: 25px; width: 25px; bottom: 0%; right: 0%; z-index: 1;}
 .titleContainer{display: flex; align-items: center; margin-left: 10px; margin-top: 30px}
 .bullet{height: 8px; width: 8px}
@@ -26,7 +26,7 @@
 .footerConnect{font-size: 1.3rem; font-weight: 700; margin-top: 70px; margin-left: 30px; width: 100%}
 .footerImg{position: absolute; object-fit: cover; width: 31%; left: 550px; top: 10px; display: none;}
 
-@media screen and (min-width: 426px) and (max-width: 768px){
+@media screen and (min-width: 426px){
     /* tablets */
     .navbarContainer{height: 55px; width: 96%;}
     .hero{width: 86%;}
