@@ -3,7 +3,7 @@
 .navbarBgImg{ width: 100%; justify-self: center;}
 .navbarLogo{ position: absolute; height: 62%; align-self: center; margin-left: 3%}
 .navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: flex; justify-content: space-between}
-.navbarText{color: #333; text-decoration: none; font-size: 1rem;}
+.navbarText{color: #333; text-decoration: none; font-size: 1.15rem;}
 .navbarText:hover{border-bottom: #FF6B19 solid 2.5px}
 .main{height: 100%; position: relative; box-sizing: border-box;}
 .drone{width: 5%;position: absolute;z-index: 3; left: 2px; top: 400px; display: none;}

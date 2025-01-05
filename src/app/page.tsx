@@ -9,6 +9,7 @@ import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import styles from './page.module.css';
 import Link from 'next/link';
 import Head from 'next/head';
+import { feSpotLight } from 'framer-motion/client';
 
 export default function Home(){
   //const Lenis = dynamic(() => import('lenis'), { ssr: false });
