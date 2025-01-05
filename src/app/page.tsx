@@ -46,12 +46,26 @@ export default function Home(){
       }
     }
   };
+
   const handleEvent = () => {
     if (typeof window !== 'undefined' && lenis) {
       const section = document.getElementById('events');
       if (section) {
         lenis.scrollTo(section);
       }
+    }
+  };
+
+  const handleNavbar = () =>{
+    if (typeof window !== 'undefined' && lenis){
+      const menu = document.getElementById('menu');
+    if(menu){
+      gsap.to(menu, {
+        x: 0,
+        duration: 0.3,
+        ease: 'power2.Out'
+      })
+    }
     }
   };
 
@@ -147,11 +161,16 @@ export default function Home(){
                 {/* <span className={styles.navbarText}>About</span> */}
               </div>
 
-              <div className={styles.navbarIcon}>
+              <div className={styles.navbarIcon} onClick={handleNavbar}>
                 <img src='/RectBullet.png' style={{width: 10, height: 10}} />
                 <img src='/RectBullet.png' style={{width: 10, height: 10, marginLeft: 2}} />
                 <img src='/RectBullet.png' style={{width: 10, height: 10, marginTop: 1}} />
                 <img src='/RectBullet.png' style={{width: 10, height: 10, marginLeft: 2, marginTop: 1}} />
+              </div>
+              <div id='menu' className={styles.navbarMenu}>
+                <span className={styles.navbarText} onClick={handleHome} style={{marginLeft: 10, marginTop: 15}}>Home</span>
+                <span className={styles.navbarText} onClick={handleEvent} style={{marginLeft: 10, marginTop: 8}}>Events</span>
+                <Link href='/team' className={styles.navbarText} style={{marginLeft: 10, marginTop: 8}}>Team</Link>
               </div>
             </div>
           </nav>
