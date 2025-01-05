@@ -6,9 +6,10 @@
 .navbarContainer{ width: 100%; height: 50px; position: relative; display: flex;}
 .navbarBgImg{ width: 100%; justify-self: center;}
 .navbarLogo{ position: absolute; height: 62%; align-self: center; margin-left: 3%}
-.navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: flex; justify-content: space-between}
+.navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: none; justify-content: space-between;}
 .navbarText{color: #333; text-decoration: none; font-size: 1.15rem; font-weight: 400;}
 .navbarText:hover{border-bottom: #FF6B19 solid 2.5px}
+.navbarIcon{display: flex; flex-direction: row; flex-wrap: wrap; width: 22px; position: absolute; align-self: center; right: 3%;}
 .hero{border-left: solid; border-right: solid; border-color: #999; width: 92%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
 .space{height: 20px;}
 .dashboard{display: flex; flex-direction: row; height: 345px; width: 100%;}
@@ -34,10 +35,11 @@
 .footerConnect{font-size: 1.3rem; font-weight: 600; margin-top: 70px; margin-left: 30px; width: 100%;}
 .footerImg{position: absolute; width: 31%; left: 550px; top: 10px; display: none;}
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px){
     /* tablets */
     .logoImpression{height: 150px;}
     .navbarContainer{height: 55px; width: 96%;}
+    .navbarContent{display: flex;}
     .hero{width: 86%;}
     .drone{left: -3px; top: 400px;}
     .droneLanding1{left: 0; top: 427px}
@@ -63,6 +65,7 @@
     /* desktop */
     .logoImpression{height: 200px;}
     .navbarContainer{height: 90px; width: 96%;}
+    .navbarContent{display: flex;}
     .hero{width: 86%;}
     .drone{left: .07%; top: 400px; width: 65px;}
     .droneLanding1{left: .45%; top: 435px; width: 55px;}

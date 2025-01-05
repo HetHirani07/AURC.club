@@ -146,6 +146,13 @@ export default function Home(){
                 <Link href='/team' className={styles.navbarText}>Team</Link>
                 {/* <span className={styles.navbarText}>About</span> */}
               </div>
+
+              <div className={styles.navbarIcon}>
+                <img src='/RectBullet.png' style={{width: 10, height: 10}} />
+                <img src='/RectBullet.png' style={{width: 10, height: 10, marginLeft: 2}} />
+                <img src='/RectBullet.png' style={{width: 10, height: 10, marginTop: 1}} />
+                <img src='/RectBullet.png' style={{width: 10, height: 10, marginLeft: 2, marginTop: 1}} />
+              </div>
             </div>
           </nav>
 
