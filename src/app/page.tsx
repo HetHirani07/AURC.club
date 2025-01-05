@@ -11,12 +11,13 @@ import styles from './page.module.css';
 import Link from 'next/link';
 import Head from 'next/head';
 
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+});
+
 export default function Home(){
-  const poppins = Poppins({
-    subsets: ['latin'],
-    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
-  });
-  
+
   const imageRef = useRef(null);
   const marqueeRef = useRef(null);
   const [lenis, setLenis] = useState<any | null>(null); 
