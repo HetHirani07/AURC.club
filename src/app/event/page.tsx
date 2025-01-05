@@ -1,7 +1,7 @@
 'use client';
 import ReactLenis from 'lenis/react';
 import { useState, useEffect, useRef, useLayoutEffect} from 'react';
-import {Poppins} from '@next/font/google';
+import {Poppins} from 'next/font/google';
 import { gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import styles from './event.module.css';

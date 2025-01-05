@@ -4,7 +4,7 @@ import About from './components/about';
 import { useRef, useEffect, useLayoutEffect, useState} from "react";
 import ReactLenis from "lenis/react";
 import Lenis from 'lenis';
-import {Poppins} from '@next/font/google';
+import {Poppins} from 'next/font/google';
 import { gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import styles from './page.module.css';
