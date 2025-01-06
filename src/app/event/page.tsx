@@ -16,7 +16,23 @@ const poppins = Poppins({
 export default function Event(){
   const [currentIndex, setCurrentIndex] = useState(0);
   const slideContainerRef = useRef(null);
+  const menuRef = useRef(null);
+  const [isMenu, setIsMenu] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const images = ['/image1.png', '/image2.png', '/image3.png', '/image4.png', '/image5.png', '/image6.png', '/image7.png']
+
+  const handleNavbar = () =>{
+      setIsMenu(!isMenu);
+      setIsMenuOpen(!isMenuOpen);
+      const menu = menuRef.current;
+      if(menu){
+        gsap.to(menu, {
+          right: isMenu ? 0: -145,
+          duration: 0.3,
+          ease: 'power2.Out'
+        })
+      }
+  };
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
@@ -71,11 +87,16 @@ export default function Event(){
                 {/* <span className={styles.navbarText}>About</span> */}
               </div>
 
-              <div className={styles.navbarIcon}>
+              <div className={styles.navbarIcon} onClick={handleNavbar}>
                 <img src='/RectBullet.png' style={{width: 10, height: 10}} />
                 <img src='/RectBullet.png' style={{width: 10, height: 10, marginLeft: 2}} />
                 <img src='/RectBullet.png' style={{width: 10, height: 10, marginTop: 1}} />
                 <img src='/RectBullet.png' style={{width: 10, height: 10, marginLeft: 2, marginTop: 1}} />
+              </div>
+              <div ref={menuRef} className={styles.navbarMenu} style={{display: isMenuOpen ? 'flex' : 'none'}}>
+                <Link href='/#home' className={styles.navbarText} style={{marginLeft: 10, marginTop: 15}}>Home</Link>
+                <Link href='/#events' className={styles.navbarText} style={{marginLeft: 10, marginTop: 8}}>Events</Link>
+                <Link href='/team' className={styles.navbarText} style={{marginLeft: 10, marginTop: 8}}>Team</Link>
               </div>
             </div>
             </nav>

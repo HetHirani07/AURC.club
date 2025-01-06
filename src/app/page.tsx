@@ -21,6 +21,7 @@ export default function Home(){
   const marqueeRef = useRef(null);
   const menuRef = useRef(null);
   const [isMenu, setIsMenu] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [lenis, setLenis] = useState<any | null>(null); 
 
   useEffect(() => {
@@ -60,14 +61,15 @@ export default function Home(){
   const handleNavbar = () =>{
     if (typeof window !== 'undefined' && lenis){
       setIsMenu(!isMenu);
+      setIsMenuOpen(!isMenuOpen);
       const menu = menuRef.current;
-    if(menu){
-      gsap.to(menu, {
-        right: isMenu ? 0: -145,
-        duration: 0.3,
-        ease: 'power2.Out'
-      })
-    }
+      if(menu){
+        gsap.to(menu, {
+          right: isMenu ? 0: -145,
+          duration: 0.3,
+          ease: 'power2.Out'
+        })
+      }
     }
   };
 
@@ -169,7 +171,7 @@ export default function Home(){
                 <img src='/RectBullet.png' style={{width: 10, height: 10, marginTop: 1}} />
                 <img src='/RectBullet.png' style={{width: 10, height: 10, marginLeft: 2, marginTop: 1}} />
               </div>
-              <div ref={menuRef} className={styles.navbarMenu}>
+              <div ref={menuRef} className={styles.navbarMenu} style={{display: isMenuOpen ? 'flex' : 'none'}}>
                 <span className={styles.navbarText} onClick={handleHome} style={{marginLeft: 10, marginTop: 15}}>Home</span>
                 <span className={styles.navbarText} onClick={handleEvent} style={{marginLeft: 10, marginTop: 8}}>Events</span>
                 <Link href='/team' className={styles.navbarText} style={{marginLeft: 10, marginTop: 8}}>Team</Link>
