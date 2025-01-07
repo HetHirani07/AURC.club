@@ -8,9 +8,9 @@
 .navbarIcon{display: flex; flex-direction: row; flex-wrap: wrap; width: 22px; position: absolute; align-self: center; right: 3%;}
 .navbarMenu{flex-direction: column; position: absolute; background-color: #ececec; width: 30vw; height: 20vh; border: solid #999 ; right: -145px; top: 100%; z-index: 5;}
 .main{height: 100%; position: relative; box-sizing: border-box;}
-.drone{width: 5%;position: absolute;z-index: 3; left: 2px; top: 400px; display: none;}
-.droneLanding1{position: absolute; left: 2px; top: 432; height: 4px; width: 5%; background-color: #FF6B19; border-radius: 50px; display: none;}
-.droneLanding2{position: absolute; left: 2px; top: 722; height: 5px; width: 5%; background-color: #FF6B19; border-radius: 50px; display: none;}
+.drone{width: 5%;position: absolute;z-index: 3; left: .35%; top: 400px; display: none;}
+.droneLanding1{position: absolute; left: .65%; top: 432; height: 4px; width: 5%; background-color: #FF6B19; border-radius: 50px; display: none;}
+.droneLanding2{position: absolute; left: .65%; top: 728; height: 5px; width: 5%; background-color: #FF6B19; border-radius: 50px; display: none;}
 .hero{border-left: solid; border-right: solid; border-color: #999; width: 92%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
 .imgContainer {overflow: hidden;margin: 0px; position: relative;}  
 .slideContainer {display: flex; transition: transform 0.5s ease-in-out;}  
@@ -35,7 +35,7 @@
     .navbarText{font-size: 1.15rem;}
     .navbarIcon{display: none;}
     .hero{width: 86%;}
-    .drone{display:block;}
+    .drone{display:block; left: .7%;}
     .droneLanding1{display: block;}
     .droneLanding2{display: block;}
     .prevBtn{height: 40px; width: 40px; right: 40px;}
@@ -59,8 +59,8 @@
     .navbarIcon{display: none;}
     .hero{width: 86%;}
     .drone{display: block; top: 400px; width: 65px;}
-    .droneLanding1{display: block; left: .45%; top: 435px; width: 55px;}
-    .droneLanding2{display: block; left: .45%; top: 956px; width: 55px;}
+    .droneLanding1{display: block; left: .65%; top: 435px; width: 55px;}
+    .droneLanding2{display: block; left: .65%; top: 956px; width: 55px;}
     .prevBtn{height: 45px; width: 45px; right: 45px;}
     .nextBtn{height: 45px; width: 45px;}
     .bullet{height: 10px; width: 10px;}
@@ -72,5 +72,5 @@
     .footerTitle{font-size: 1.75rem; margin-left: 30%; margin-top: 30px;}
     .footerSubTitle{font-size: 1.1rem; margin-left: 30%;}
     .footerConnect{font-size: 1.75rem; margin-left: 30%;}
-    .footerImg{display: block; left: 80%; top: 5px; width: 24%;}
+    .footerImg{display: block; left: 76%; top: 5px; width: 28%;}
 }

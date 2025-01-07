@@ -1,5 +1,6 @@
 body{
     background-color: #ececec;
     cursor: default;
+    margin: 0;
 }
 *{cursor: default;}

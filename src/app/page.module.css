@@ -1,4 +1,4 @@
-.firstPage{ display: flex; justify-content: center; height: 100vh; overflow: hidden; box-sizing: border-box;}
+.firstPage{display: flex; justify-content: center; height: 100vh; overflow: hidden; box-sizing: border-box;}
 .secondPage{height: 100%; position: relative; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}
 .thirdPage{height: 100%; box-sizing: border-box; position: relative;}
 .logoImpression{height: 100px; will-change: transform}
@@ -22,7 +22,7 @@
 .dashboardRobot{height: 100%; width: 56.35%; box-sizing: border-box; border: solid; border-color: #999; display: none;}
 .dashboardRight{display: 'flex'; flex-direction: column; height: 100%; width: 50%; box-sizing: border-box; border-top: solid; border-bottom: solid; border-color: #999;}
 .evolve{width: 75%; height: 75%;}
-.textUpper{font-size: 63px; font-weight: 600; align-self: center}
+.textUpper{font-size: 61px; font-weight: 600; align-self: center}
 .textLower{font-size: 15px; font-weight: 400; align-self: center}
 .drone{width: 50px;position: absolute;z-index: 3; left: 50px; top: 520px}
 .droneLanding1{position: absolute; left: 52.5px; top: 547px; height: 4px; width: 45px; background-color: #FF6B19; border-radius: 50px}
@@ -45,15 +45,15 @@
     .navbarIcon{display: none;}
     .navbarMenu{ display: none;}
     .hero{width: 86%;}
-    .drone{left: -3px; top: 400px;}
-    .droneLanding1{left: 0; top: 427px}
-    .droneLanding2{left: 0; top: 827px}
+    .drone{left: 0px; top: 400px;}
+    .droneLanding1{left: 2px; top: 427px}
+    .droneLanding2{left: 2px; top: 827px}
     .dashboard{height: 445px;}
     .dashboardLeft{width: 22.30%; border-right: none;}
     .dashboardRobot{display: block;}
     .dashboardRight{width: 21.5%;}
     .evolve{width: 80%;}
-    .textUpper{font-size: 56px;}
+    .textUpper{font-size: 54px;}
     .textLower{font-size: 16px;}
     .space{height: 30px;}
     .marqueeBox{height: 90px;}
@@ -81,7 +81,7 @@
     .dashboardLeft{width: 22.5%; border-right: none;}
     .dashboardRobot{display: block;}
     .dashboardRight{width: 21.5%;}
-    .textUpper{font-size: 80px;}
+    .textUpper{font-size: 72px;}
     .textLower{font-size: 20px;}
     .space{height: 80px;}
     .marqueeBox{height: 100px;}
@@ -91,5 +91,5 @@
     .footerTitle{font-size: 1.75rem; margin-left: 30%; margin-top: 30px;}
     .footerSubTitle{font-size: 1.1rem; margin-left: 30%;}
     .footerConnect{font-size: 1.75rem; margin-left: 30%;}
-    .footerImg{display: block; left: 80%; top: 5px; width: 24%;}
+    .footerImg{display: block; left: 76%; top: 5px; width: 28%;}
 }
