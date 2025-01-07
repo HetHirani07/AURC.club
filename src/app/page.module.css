@@ -7,10 +7,10 @@
 .navbarBgImg{ width: 100%; justify-self: center;}
 .navbarLogo{ position: absolute; height: 62%; align-self: center; margin-left: 3%}
 .navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: none; justify-content: space-between;}
-.navbarText{color: #333; text-decoration: none; font-size: 15px; font-weight: 400;}
+.navbarText{color: #333; text-decoration: none; font-size: 15px; font-weight: 400; width: 55px;}
 .navbarText:hover{color: #FF6B19}
 .navbarIcon{display: flex; flex-direction: row; flex-wrap: wrap; width: 22px; position: absolute; align-self: center; right: 3%;}
-.navbarMenu{flex-direction: column; position: absolute; background-color: #ececec; width: 30vw; height: 20vh; border: solid #999 ; right: -145px; top: 100%; z-index: 5;} 
+.navbarMenu{display: flex; flex-direction: column; position: absolute; background-color: #ececec; width: 92vw; height: 0vh; border-bottom: solid #999 1px; left: 4%; top: 99.5%; z-index: 4; overflow: hidden;} 
 .hero{border-left: solid; border-right: solid; border-color: #999; width: 92%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column;}
 .space{height: 20px;}
 .dashboard{display: flex; flex-direction: row; height: 345px; width: 100%;}
