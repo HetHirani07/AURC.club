@@ -67,9 +67,8 @@ export default function Event(){
     return(
         <ReactLenis root>
         <Head>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
+        <meta name='viewport' content='width=device-width, initial-scale = 1'/>
+        <meta name='keyword' content='adani university, robotics club, adani university robotics club, aurc, au robotics club, eyantra' />
       </Head>
         <main className={poppins.className}>
             <div style={{position: 'relative'}}>
