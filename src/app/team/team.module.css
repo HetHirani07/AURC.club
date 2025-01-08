@@ -16,10 +16,11 @@
 .bullet{height: 8px; width: 8px}
 .title{font-size: 1.5rem; font-weight: 600; color: black; margin-left: 10px;}
 .cardBox{display: flex; flex-wrap: wrap; width: 99%; align-self: center; justify-content: center; gap: 30px; margin-top: 20px; margin-bottom: 80px;}
-.card{width: 260px; height: 340px; border: 1px solid #999; display: flex; flex-direction: column;}
+.card{width: 260px; height: 340px; border: 1px solid #999; display: flex; flex-direction: column; position: relative;}
 .imgProfile{width: 240px; height: 75%; align-self: center; margin: 5px;}
 .name{font-size: 20px;font-weight: 500; margin-left: 1rem; margin-top: .5rem;}
 .subName{font-size: 14px; margin-left: 1rem;}
+.icon{height: 30px; width: 30px; position: absolute; right: 15px; bottom: 25px;}
 .footer{display: flex; position: relative; height: 270px; width: 100%; border-top: dashed #999; box-sizing: border-box; overflow: hidden;}
 .footerTitle{font-size: 1.3rem; font-weight: 600; margin-top: 20px; margin-left: 30px; width: 100%;}
 .footerSubTitle{color: #333; font-size: 1rem; margin-top: 10px; margin-left: 30px; width: 100%;}
@@ -64,5 +65,11 @@
     .footerTitle{font-size: 1.75rem; margin-left: 30%; margin-top: 30px;}
     .footerSubTitle{font-size: 1.1rem; margin-left: 30%;}
     .footerConnect{font-size: 1.75rem; margin-left: 30%;}
-    .footerImg{display: block; left: 76%; top: 5px; width: 28%;}
+    .footerImg{display: block; left: 80%; top: 10px; width: 22%;}
+}
+
+@media screen and (min-width: 1439px) {
+    .drone{left: 1%; top: 400px; width: 65px;}
+    .droneLanding1{left: 1.3%; top: 435px; width: 55px;}
+    .droneLanding2{left: 1.3%; top: 956px; width: 55px;}
 }

@@ -94,6 +94,8 @@ export default function Team(){
                       <img src='/hetProfile.png' className={styles.imgProfile} alt='profileImage'></img>
                       <span className={styles.name}>Het Hirani</span>
                       <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/het-hirani-1511b4282/'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
                     </div>
                     <div className={styles.card}></div>
                     <div className={styles.card}></div>
