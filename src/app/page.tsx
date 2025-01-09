@@ -10,6 +10,7 @@ import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import styles from './page.module.css';
 import Link from 'next/link';
 import Head from 'next/head';
+import Script from 'next/script';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -137,6 +138,7 @@ export default function Home(){
         <meta name='viewport' content='width=device-width, initial-scale = 1'/>
         <meta name='keyword' content='adani university, robotics club, adani university robotics club, aurc, au robotics club, eyantra' />
       </Head>
+      <body>
       <main style={{margin: 0, translate: '0 0',}} className={poppins.className}>
 
         <section ref={firstSectionRef} className={styles.firstPage}>
@@ -217,14 +219,7 @@ export default function Home(){
           <div id='about'><About /></div>
           </div>
         </section>
-
-        {/* <section id='thirdPage' className={styles.thirdPage}>
-          <div className={styles.hero}>
-          <div id='events' className={styles.spaceA}></div>
-            <div id='events'><Events /></div>
-            <div id='about'><About /></div>
-          </div>
-        </section> */}
+        
         <footer className={styles.footer}>
           <div style={{display: 'flex', flexDirection: 'column'}}>
           <span className={styles.footerTitle}>AURC</span>
@@ -237,6 +232,7 @@ export default function Home(){
         </footer>
         </div>
       </main>
+      </body>
     </ReactLenis>
   )
 };

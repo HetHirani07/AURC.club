@@ -70,6 +70,7 @@ export default function Event(){
         <meta name='viewport' content='width=device-width, initial-scale = 1'/>
         <meta name='keyword' content='adani university, robotics club, adani university robotics club, aurc, au robotics club, eyantra' />
       </Head>
+      <body>
         <main className={poppins.className}>
             <div style={{position: 'relative'}}>
             <nav id="nav" className={styles.navbar}>
@@ -177,6 +178,7 @@ export default function Event(){
             </footer>
         </div>
         </main>
+        </body>
         </ReactLenis>
         
     )
