@@ -1,0 +1,57 @@
+.navbar{position: sticky; top: 0; left: 0; width: 100%; display: flex; justify-content: center; align-content: center; z-index: 4;}
+.navbarContainer{ width: 100%; height: 50px; position: relative; display: flex;}
+.navbarBgImg{ width: 100%; justify-self: center;}
+.navbarLogo{ position: absolute; height: 62%; align-self: center; margin-left: 3%}
+.navbarContent{position: absolute; align-self: center; margin-left: 30%; width: 40%; height: 24px; display: none; justify-content: space-between;}
+.navbarText{color: #333; text-decoration: none; font-size: 15px; font-weight: 400; width: 55px;}
+.navbarText:hover{color: #FF6B19}
+.navbarIcon{display: flex; flex-direction: row; flex-wrap: wrap; width: 22px; position: absolute; align-self: center; right: 3%;}
+.navbarMenu{display: flex; flex-direction: column; position: absolute; background-color: #ececec; width: 92vw; height: 0vh; border-bottom: solid #999 1px; left: 4%; top: 99.5%; z-index: 4; overflow: hidden;} 
+.hero{border-left: solid; border-right: solid; border-color: #999; width: 92%; height: 100%; display: flex; justify-self: center; margin-top: 0%; flex-direction: column; }
+.bullet{height: 8px; width: 8px; margin-left: 1.1rem; margin-top: 45px;}
+.title{font-size: 1.5rem; font-weight: 600; color: black; margin-left: 10px; margin-top: 45px;}
+.text{font-size: .9rem; margin-left: 1.1rem; width: 90%;}
+.container{margin-top: 20px;}
+.ball{position: absolute; background-color: #FF6B19; border-radius: 50%; width: 25px; height: 25px; left: -7.5px; top: -7.5px;}
+.dot{width: 10px; height: 10px; border-radius: 50%; background-color: #999;}
+.line{width: 3px; height: 200px; background-color: #999; margin-left: 3.25px;}
+.footer{display: flex; position: relative; height: 270px; width: 100%; border-top: dashed #999; box-sizing: border-box; overflow: hidden;}
+.footerTitle{font-size: 1.3rem; font-weight: 600; margin-top: 20px; margin-left: 30px; width: 100%;}
+.footerSubTitle{color: #333; font-size: 1rem; margin-top: 10px; margin-left: 30px; width: 100%;}
+.footerConnect{font-size: 1.3rem; font-weight: 600; margin-top: 70px; margin-left: 30px; width: 100%;}
+.footerImg{position: absolute; width: 31%; left: 550px; top: 10px; display: none;}
+
+@media screen and (min-width: 426px) {
+    /* tablets */
+    .navbarContainer{height: 55px; width: 96%;}
+    .navbarContent{display: flex;}
+    .navbarText{font-size: 1.15rem;}
+    .navbarIcon{display: none;}
+    .navbarMenu{ display: none;}
+    .hero{width: 86%;}
+    .bullet{width: 10px; height: 10px; margin-left: 2.25rem;}
+    .title{font-size: 1.6rem; margin-left: 15px;}
+    .text{font-size: 17px; margin-left: 2.25rem;}
+    .footerTitle{font-size: 1.5rem;}
+    .footerSubTitle{font-size: 1.05rem;}
+    .footerConnect{font-size: 1.5rem;}
+    .footerImg{display: block;}
+}
+
+@media screen and (min-width: 769px) {
+    /* desktops */
+    .navbarContainer{height: 90px; width: 96%;}
+    .navbarContent{display: flex;}
+    .navbarText{font-size: 1.15rem;}
+    .navbarIcon{display: none}
+    .navbarMenu{ display: none;}
+    .hero{width: 86%;}
+    .bullet{width: 10px; height: 10px; margin-left: 2.5rem;}
+    .title{font-size: 1.9rem; margin-left: 15px;}
+    .text{font-size: 17px; margin-left: 2.5rem;}
+    .footer{height: 320px;}
+    .footerTitle{font-size: 1.75rem; margin-left: 30%; margin-top: 30px;}
+    .footerSubTitle{font-size: 1.1rem; margin-left: 30%;}
+    .footerConnect{font-size: 1.75rem; margin-left: 30%;}
+    .footerImg{display: block; left: 76%; top: 5px; width: 22%;}
+}

@@ -22,7 +22,7 @@ export default function Team(){
       const menu = menuRef.current;
       if(menu){
         gsap.to(menu, {
-          height: isMenu ? '15vh': '0vh',
+          height: isMenu ? '18vh': '0vh',
           duration: 0.3,
           ease: 'power2.Out'
         })
@@ -59,7 +59,7 @@ export default function Team(){
                 <Link href='/#home' className={styles.navbarText}>Home</Link>
                 <Link href='/#events' className={styles.navbarText}>Events</Link>
                 <Link href='/team' className={styles.navbarText}>Team</Link>
-                {/* <span className={styles.navbarText}>About</span> */}
+                <Link href='/achivements' className={styles.navbarText}>Achivements</Link>
               </div>
 
               <div className={styles.navbarIcon} onClick={handleNavbar}>
@@ -72,6 +72,7 @@ export default function Team(){
                 <Link href='/#home' className={styles.navbarText} style={{marginLeft: 10, marginTop: 15}}>Home</Link>
                 <Link href='/#events' className={styles.navbarText} style={{marginLeft: 10, marginTop: 8}}>Events</Link>
                 <Link href='/team' className={styles.navbarText} style={{marginLeft: 10, marginTop: 8}}>Team</Link>
+                <Link href='/achivements' className={styles.navbarText} style={{marginLeft: 10, marginTop: 8}}>Achivements</Link>
               </div>
             </div>
             </nav>
