@@ -92,7 +92,7 @@ export default function Team(){
 
                 <div className={styles.cardBox}>
                     <div className={styles.card}>
-                      <img className={styles.imgProfile} alt='profileImage'></img>
+                      <img src='/niralee.png' className={styles.imgProfile} alt='profileImage'></img>
                       <span className={styles.name}>Niralee Chavda</span>
                       <span className={styles.subName}>President</span>
                       <Link href='https://www.linkedin.com/in/niralee-chavda-869961251?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5Pq0GbLRTXau5OOfmNNz4Q%3D%3D'>
@@ -148,7 +148,7 @@ export default function Team(){
                     </div>
 
                     <div className={styles.card}>
-                    <img src='/' className={styles.imgProfile} alt='profileImage'></img>
+                    <img src='/ashish.png' className={styles.imgProfile} alt='profileImage'></img>
                       <span className={styles.name}>Ashish Shrivastav</span>
                       <span className={styles.subName}>Trainer</span>
                       <Link href='https://www.linkedin.com/in/ashish-shrivastav-aaa543284?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BgkTdp5v%2BR6eFbgGBD2Kfwg%3D%3D'>

@@ -24,9 +24,9 @@
 .evolve{width: 75%; height: 75%;}
 .textUpper{font-size: 61px; font-weight: 600; align-self: center}
 .textLower{font-size: 15px; font-weight: 400; align-self: center}
-.drone{width: 50px;position: absolute;z-index: 3; left: 50px; top: 520px}
-.droneLanding1{position: absolute; left: 52.5px; top: 547px; height: 4px; width: 45px; background-color: #FF6B19; border-radius: 50px}
-.droneLanding2{position: absolute; left: 52.5px; top: 947px; height: 4px; width: 45px; background-color: #FF6B19; border-radius: 50px}
+.drone{width: 50px;position: absolute;z-index: 3; left: 60px; top: 520px}
+.droneLanding1{position: absolute; left: 62.5px; top: 547px; height: 4px; width: 45px; background-color: #FF6B19; border-radius: 50px}
+.droneLanding2{position: absolute; left: 62.5px; top: 947px; height: 4px; width: 45px; background-color: #FF6B19; border-radius: 50px}
 .marqueeBox{padding-top: 10px; padding-bottom: 15px; width: 100%; height: 70px; display: flex; align-items: center; overflow: hidden;}
 .marqueeText{font-size: 70px; display: flex; font-weight: 600; letter-spacing: 1px; word-spacing: 10px; white-space: nowrap;}
 .eventComp{margin-top: 450px;}
@@ -39,26 +39,26 @@
 @media screen and (min-width: 426px){
     /* tablets */
     .logoImpression{height: 150px;}
-    .navbarContainer{height: 55px; width: 96%;}
-    .navbarContent{display: flex;}
-    .navbarText{font-size: 1.15rem;}
-    .navbarIcon{display: none;}
-    .navbarMenu{ display: none;}
-    .hero{width: 86%;}
-    .drone{left: 0px; top: 400px;}
-    .droneLanding1{left: 2px; top: 427px}
-    .droneLanding2{left: 2px; top: 827px}
-    .dashboard{height: 445px;}
-    .dashboardLeft{width: 22.30%; border-right: none;}
-    .dashboardRobot{display: block;}
-    .dashboardRight{width: 21.5%;}
-    .evolve{width: 80%;}
-    .textUpper{font-size: 54px;}
+    .navbarContainer{height: 55px; width: 100%;} /*width: 96%*/
+    .navbarContent{display: none;}
+    .navbarText{font-size: 1.1rem;}
+    .navbarIcon{display: flex;}
+    .navbarMenu{ display: flex;}
+    .hero{width: 92%;} /*width: 86%*/
+    .drone{top: 680px;} /*top: 400px*/
+    .droneLanding1{top: 707px} /*top: 427px*/
+    .droneLanding2{top: 1107px} /*top: 827px*/
+    .dashboard{height: 500px;} /*height: 445px*/
+    .dashboardLeft{width: 50%;} /*width: 22.30%; borde-right: none*/
+    .dashboardRobot{display: none;}
+    .dashboardRight{width: 50%;} /*width: 21.5%*/
+    .evolve{width: 70%;}
+    .textUpper{font-size: 52px;} /*54*/
     .textLower{font-size: 16px;}
     .space{height: 30px;}
     .marqueeBox{height: 90px;}
     .marqueeText{font-size: 90px;}
-    .eventComp{margin-top: 0px;}
+    /* .eventComp{margin-top: 0px;} */
     .footerTitle{font-size: 1.5rem;}
     .footerSubTitle{font-size: 1.05rem;}
     .footerConnect{font-size: 1.5rem;}

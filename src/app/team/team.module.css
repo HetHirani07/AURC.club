@@ -29,15 +29,15 @@
 
 @media  screen and (min-width: 426px) {
     /* tablets */
-    .navbarContainer{height: 55px; width: 96%;}
-    .navbarContent{display: flex;}
-    .navbarText{font-size: 1.15rem;}
-    .navbarIcon{display: none;}
-    .navbarMenu{ display: none;}
-    .hero{width: 86%;}
-    .drone{left: 0px; top: 400px; display: block;}
-    .droneLanding1{left: 2px; top: 427px; display: block;}
-    .droneLanding2{left: 2px; top: 827px; display: block;}
+    .navbarContainer{height: 55px; width: 100%;} /*width: 96%*/
+    .navbarContent{display: none;}
+    .navbarText{font-size: 1.1rem;}
+    .navbarIcon{display: flex;}
+    .navbarMenu{ display: flex;}
+    .hero{width: 92%;} /*width: 86%*/
+    .drone{left: 0px; top: 400px; display: none;}
+    .droneLanding1{left: 2px; top: 427px; display: none;}
+    .droneLanding2{left: 2px; top: 827px; display: none;}
     .titleContainer{margin-left: 2.25rem;}
     .bullet{width: 10px; height: 10px;}
     .title{font-size: 1.6rem; margin-left: 15px;}

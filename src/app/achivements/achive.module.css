@@ -23,12 +23,12 @@
 
 @media screen and (min-width: 426px) {
     /* tablets */
-    .navbarContainer{height: 55px; width: 96%;}
-    .navbarContent{display: flex;}
-    .navbarText{font-size: 1.15rem;}
-    .navbarIcon{display: none;}
-    .navbarMenu{ display: none;}
-    .hero{width: 86%;}
+    .navbarContainer{height: 55px; width: 100%;} /*width: 96%*/
+    .navbarContent{display: none;}
+    .navbarText{font-size: 1.11rem;}
+    .navbarIcon{display: flex;}
+    .navbarMenu{ display: flex;}
+    .hero{width: 92%;} /*width: 86%*/
     .bullet{width: 10px; height: 10px; margin-left: 2.25rem;}
     .title{font-size: 1.6rem; margin-left: 15px;}
     .text{font-size: 17px; margin-left: 2.25rem;}

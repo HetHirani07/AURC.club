@@ -30,15 +30,15 @@
 
 @media screen and (min-width: 426px){
     /* tablets */
-    .navbarContainer{height: 55px; width: 96%;}
-    .navbarContent{display: flex;}
-    .navbarText{font-size: 1.15rem;}
-    .navbarIcon{display: none;}
-    .navbarMenu{display: none;}
-    .hero{width: 86%;}
-    .drone{display:block;}
-    .droneLanding1{display: block;}
-    .droneLanding2{display: block;}
+    .navbarContainer{height: 55px; width: 100%;} /*width: 96%*/
+    .navbarContent{display: none;}
+    .navbarText{font-size: 1.1rem;}
+    .navbarIcon{display: flex;}
+    .navbarMenu{display: flex;}
+    .hero{width: 92%;} /*width: 86%*/
+    .drone{display:none;}
+    .droneLanding1{display: none;}
+    .droneLanding2{display: none;}
     .prevBtn{height: 40px; width: 40px; right: 40px;}
     .nextBtn{height: 40px; width: 40px;}
     .bullet{height: 10px; width: 10px;}
