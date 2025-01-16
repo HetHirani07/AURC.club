@@ -26,6 +26,7 @@
 .footerTitle{font-size: 1.3rem; font-weight: 600; margin-top: 20px; margin-left: 30px; width: 100%;}
 .footerSubTitle{color: #333; font-size: 1rem; margin-top: 10px; margin-left: 30px; width: 100%;}
 .footerConnect{font-size: 1.3rem; font-weight: 600; margin-top: 70px; margin-left: 30px; width: 100%}
+.footerIcon{height: 30px; width: 30px; margin-left: 30px; margin-top: 5px;}
 .footerImg{position: absolute; object-fit: cover; width: 31%; left: 550px; top: 10px; display: none;}
 
 @media screen and (min-width: 426px){
@@ -74,6 +75,7 @@
     .footerTitle{font-size: 1.75rem; margin-left: 30%; margin-top: 30px;}
     .footerSubTitle{font-size: 1.1rem; margin-left: 30%;}
     .footerConnect{font-size: 1.75rem; margin-left: 30%;}
+    .footerIcon{margin-left: 30%;}
     .footerImg{display: block; left: 76%; top: 5px; width: 22%;}
 }
 
