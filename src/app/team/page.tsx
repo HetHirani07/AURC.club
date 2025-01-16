@@ -92,23 +92,122 @@ export default function Team(){
 
                 <div className={styles.cardBox}>
                     <div className={styles.card}>
-                      <img src='/hetProfile.png' className={styles.imgProfile} alt='profileImage'></img>
-                      <span className={styles.name}>Het Hirani</span>
-                      <span className={styles.subName}>Trainer</span>
-                      <Link href='https://www.linkedin.com/in/het-hirani-1511b4282/'>
+                      <img className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Niralee Chavda</span>
+                      <span className={styles.subName}>President</span>
+                      <Link href='https://www.linkedin.com/in/niralee-chavda-869961251?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5Pq0GbLRTXau5OOfmNNz4Q%3D%3D'>
                       <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
                     </div>
-                    <div className={styles.card}></div>
-                    <div className={styles.card}></div>
-                    <div className={styles.card}></div>
-                    <div className={styles.card}></div>
-                    <div className={styles.card}></div>
-                    <div className={styles.card}></div>
-                    <div className={styles.card}></div>
-                    <div className={styles.card}></div>
-                    <div className={styles.card}></div>
-                    <div className={styles.card}></div>
-                    <div className={styles.card}></div>
+
+                    <div className={styles.card}>
+                    <img src='/hetProfile.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Het Hirani</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/het-hirani-1511b4282?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhZBZSrvjSz%2BT%2Fw27BAMPfw%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/jiaan.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Jiaan Oza</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/jiaan-oza-333496284?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Box7m9Io8TlqBnrZJZfwoFw%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/saurabh.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Saurabh Singh</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/saurabh-singh-520180282?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbG87wybRTiOn2TtSRYWUpA%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/aditya.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Aditya Jani</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/aditya-jani-a183a0284?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFscVbYAMTE2o7WykBRudBg%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/supal.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Supal Vasani</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/supal-vasani-4a061a284?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BaDPpBJxQi21bzqr1PlP1g%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/priyanshi.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Priyanshi Naghera</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/priyanshi-naghera-11b824284?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BgbDp542mSReyfundt1OkLQ%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Ashish Shrivastav</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/ashish-shrivastav-aaa543284?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BgkTdp5v%2BR6eFbgGBD2Kfwg%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/dharm.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Dharm Saliya</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/dharm-saliya-460166292?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BjjAXf7gHRNiXHWhaexC52w%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/om.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Om Kansara</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/om-kansara-710846198?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bj4dCKoeHRk%2BiwCLcNcP3QA%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/nishka.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Nishka Suthar</span>
+                      <span className={styles.subName}>Volunteer</span>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='hetJethva.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Het Jethva</span>
+                      <span className={styles.subName}>Volunteer</span>
+                      <Link href='https://www.linkedin.com/in/het-jethva-8bb9382a8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba5ddnI1%2BTPyLioaixedHJA%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='heet.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Heet Vekariya</span>
+                      <span className={styles.subName}>Mentor</span>
+                      <Link href='https://www.linkedin.com/in/heet-vekariya-16326024b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMQdtBwBLQC2B%2FHkfRDX7Hg%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/naimish.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Naimish Bhuva</span>
+                      <span className={styles.subName}>Mentor</span>
+                      <Link href='https://www.linkedin.com/in/naimishbhuva?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxPteJDtOQjWLrXHcvQIhZw%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
+                    <img src='/aloksir.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Dr. Alok Kumar</span>
+                      <span className={styles.subName}>Faculty Cordinator</span>
+                      <Link href='https://www.linkedin.com/in/dr-alok-kumar-singh-10117818?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0Fhd6MzcSBOKal91PIdeMA%3D%3D'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
                 </div>
             </div>
             </section>

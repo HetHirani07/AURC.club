@@ -13,7 +13,7 @@ export default function Events(){
             <div className={styles.card}>
                 <img src='/workshopBG.png' className={styles.cardImg}></img>
                 <span className={styles.eventName}>Robotics Workshop S16</span>
-                <span className={styles.eventDate}>Date: 21st Jan, 2025</span>
+                <span className={styles.eventDate}>Date: 20th Jan, 2025</span>
                 <Link href='/event'><img src='/cardToggle.png' className={styles.toggleImg}></img></Link>
             </div>
         </div>

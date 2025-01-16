@@ -1,7 +1,7 @@
 'use client';
 import ReactLenis from 'lenis/react';
 import { useState, useEffect, useRef, useLayoutEffect} from 'react';
-import {Poppins} from 'next/font/google';
+import {Fontdiner_Swanky, Poppins} from 'next/font/google';
 import { gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import styles from './event.module.css';
@@ -148,7 +148,16 @@ export default function Event(){
               (one mark each). There will be no negative-marking. Time given to complete the test will be 
               strictly 5 min. Most of the questions will be based on aptitude, basic about robots and 
               logical programming questions on C language.</p>
-              <p className={styles.para}>The date, time and link of the test will be shown in this section at the time of test. Please keep checking for the details.</p>
+              <p className={styles.para}>
+                <span style={{fontWeight: 600}}>Date: </span>18th Jan, 2025<br/>
+                <span style={{fontWeight: 600}}>Time: </span>Will be announced soon.<br/>
+                <span style={{fontWeight: 600}}>Duration: </span>5 min<br/>
+                <span style={{fontWeight: 600}}>Link: </span>
+                <Link href='https://docs.google.com/forms/d/e/1FAIpQLSeajr-16Sab-taHzoieh1z9ZRuRRogHBsWQ44gSjEs3ztlbyA/viewform?usp=sharing' style={{textDecoration: 'none', color: '#FF6B19'}}>
+                Click Here</Link> (Form will be open only at time of test)<br/>
+                <span style={{fontWeight: 600}}>Results: </span> Will be declared after test within few hours(selected participants will be added in a Whatsapp group).
+              </p>
+              <p className={styles.para} style={{fontWeight: 600, color: '#ff6b19'}}>You are requested to keep an eye on this section.</p>
             </div>
 
             <div className={styles.titleContainer}>
