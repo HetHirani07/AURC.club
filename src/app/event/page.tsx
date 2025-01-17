@@ -181,7 +181,7 @@ export default function Event(){
                     <span className={styles.footerTitle}>AURC</span>
                     <span className={styles.footerSubTitle}>Learn | Connect | Evolve</span>
                     <span className={styles.footerConnect}>Connect With Us</span>
-                    <Link href='https://www.instagram.com/aurc.robotics?utm_source=qr&igsh=MmwzZWs4MDRheWxz'>
+                    <Link href='https://www.instagram.com/aurc.robotics?utm_source=qr&igsh=MmwzZWs4MDRheWxz' target='blank'>
                     <img src='/insta.png' className={styles.footerIcon} /></Link>
                     </div>
                     <div>
