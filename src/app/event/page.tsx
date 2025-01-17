@@ -150,7 +150,7 @@ export default function Event(){
               logical programming questions on C language.</p>
               <p className={styles.para}>
                 <span style={{fontWeight: 600}}>Date: </span>18th Jan, 2025<br/>
-                <span style={{fontWeight: 600}}>Time: </span>Will be announced soon.<br/>
+                <span style={{fontWeight: 600}}>Time: </span>12.00 AM Sharp<br/>
                 <span style={{fontWeight: 600}}>Duration: </span>5 min<br/>
                 <span style={{fontWeight: 600}}>Link: </span>
                 <Link href='https://docs.google.com/forms/d/e/1FAIpQLSeajr-16Sab-taHzoieh1z9ZRuRRogHBsWQ44gSjEs3ztlbyA/viewform?usp=sharing' style={{textDecoration: 'none', color: '#FF6B19'}}>
@@ -181,7 +181,7 @@ export default function Event(){
                     <span className={styles.footerTitle}>AURC</span>
                     <span className={styles.footerSubTitle}>Learn | Connect | Evolve</span>
                     <span className={styles.footerConnect}>Connect With Us</span>
-                    <Link href='https://www.instagram.com/robotics_club_au?igsh=MmwzZWs4MDRheWxz'>
+                    <Link href='https://www.instagram.com/aurc.robotics?utm_source=qr&igsh=MmwzZWs4MDRheWxz'>
                     <img src='/insta.png' className={styles.footerIcon} /></Link>
                     </div>
                     <div>
