@@ -150,7 +150,7 @@ export default function Event(){
               logical programming questions on C language.</p>
               <p className={styles.para}>
                 <span style={{fontWeight: 600}}>Date: </span>18th Jan, 2025<br/>
-                <span style={{fontWeight: 600}}>Time: </span>12.00 AM Sharp<br/>
+                <span style={{fontWeight: 600}}>Time: </span>12.00 PM Sharp<br/>
                 <span style={{fontWeight: 600}}>Duration: </span>5 min<br/>
                 <span style={{fontWeight: 600}}>Link: </span>
                 <Link href='https://docs.google.com/forms/d/e/1FAIpQLSeajr-16Sab-taHzoieh1z9ZRuRRogHBsWQ44gSjEs3ztlbyA/viewform?usp=sharing' style={{textDecoration: 'none', color: '#FF6B19'}}>
