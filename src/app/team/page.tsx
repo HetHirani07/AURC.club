@@ -172,6 +172,14 @@ export default function Team(){
                     </div>
 
                     <div className={styles.card}>
+                    <img src='/shivam.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Shivam Markanday</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/shivammarkanday?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BUoGHRYb2RJqVpvLeG1CM%2Bg%3D%3D' target='blank'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
+                    </div>
+
+                    <div className={styles.card}>
                     <img src='/nishka.png' className={styles.imgProfile} alt='profileImage'></img>
                       <span className={styles.name}>Nishka Suthar</span>
                       <span className={styles.subName}>Volunteer</span>
