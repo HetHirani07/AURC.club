@@ -152,10 +152,9 @@ export default function Event(){
                 <span style={{fontWeight: 600}}>Date: </span>18th Jan, 2025<br/>
                 <span style={{fontWeight: 600}}>Time: </span>12.00 PM Sharp<br/>
                 <span style={{fontWeight: 600}}>Duration: </span>5 min<br/>
-                <span style={{fontWeight: 600}}>Link: </span>
-                <Link href='https://docs.google.com/forms/d/e/1FAIpQLSeajr-16Sab-taHzoieh1z9ZRuRRogHBsWQ44gSjEs3ztlbyA/viewform?usp=sharing' style={{textDecoration: 'none', color: '#FF6B19'}}>
-                Click Here</Link> (Form will be open only at time of test)<br/>
-                <span style={{fontWeight: 600}}>Results: </span> Will be declared after test within few hours(selected participants will be added in a Whatsapp group).
+                <span style={{fontWeight: 600}}>Link: </span>N/A<br/>
+                <span style={{fontWeight: 600}}>Results: </span>
+                <Link href='/R0B0TICS TEST RESULTS.pdf' download target='blank' style={{textDecoration: 'none', color: '#ff6b19'}}>Download PDF</Link>
               </p>
               <p className={styles.para} style={{fontWeight: 600, color: '#ff6b19'}}>You are requested to keep an eye on this section.</p>
             </div>
