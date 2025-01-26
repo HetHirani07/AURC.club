@@ -1,7 +1,7 @@
 .container{margin-left: 1.1rem; margin-top: 70px}
 .bullet{height: 8px; width: 8px}
 .title{font-size: 1.5rem; font-weight: 600; color: black; margin-left: 10px;}
-.subTitle{font-size: 1.15rem; margin-left: 25px}
+.subTitle{font-size: .9rem; width: 90%;}
 .card{height: 290px; width: 250px; overflow: hidden; display: flex; flex-direction: column; border: 1px solid #999; margin-left: 0px; margin-top: 20px;
     position: relative}
 .cardImg{height: 60%;object-fit: cover; box-sizing: border-box}
@@ -15,6 +15,7 @@
     .card{height: 300px; width: 260px;}
     .bullet{height: 10px; width: 10px;}
     .title{font-size: 1.6rem; margin-left: 15px;}
+    .subTitle{font-size: 17px;}
     .eventName{font-size: 21px;}
     .eventDate{font-size: 19px;}
     .toggleImg{height: 45px;}
@@ -25,6 +26,7 @@
     .container{margin-left: 2.5rem; margin-top: 80px;}
     .bullet{width: 10px; height: 10px;}
     .title{font-size: 1.9rem; margin-left: 15px;}
+    .subTitle{font-size: 17px;}
     .card{height: 300px;width: 270px;}
     .eventName{font-size: 21px;}
     .eventDate{font-size: 19px;}
