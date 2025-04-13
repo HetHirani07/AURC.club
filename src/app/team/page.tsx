@@ -180,17 +180,17 @@ export default function Team(){
                     </div>
 
                     <div className={styles.card}>
-                    <img src='/nishka.png' className={styles.imgProfile} alt='profileImage'></img>
-                      <span className={styles.name}>Nishka Suthar</span>
-                      <span className={styles.subName}>Volunteer</span>
+                    <img src='hetJethva.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Het Jethva</span>
+                      <span className={styles.subName}>Trainer</span>
+                      <Link href='https://www.linkedin.com/in/het-jethva-8bb9382a8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba5ddnI1%2BTPyLioaixedHJA%3D%3D' target='blank'>
+                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
                     </div>
 
                     <div className={styles.card}>
-                    <img src='hetJethva.png' className={styles.imgProfile} alt='profileImage'></img>
-                      <span className={styles.name}>Het Jethva</span>
+                    <img src='/nishka.png' className={styles.imgProfile} alt='profileImage'></img>
+                      <span className={styles.name}>Nishka Suthar</span>
                       <span className={styles.subName}>Volunteer</span>
-                      <Link href='https://www.linkedin.com/in/het-jethva-8bb9382a8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba5ddnI1%2BTPyLioaixedHJA%3D%3D' target='blank'>
-                      <img src='/linkedIn.png' className={styles.icon} alt='icon'></img></Link>
                     </div>
 
                     <div className={styles.card}>

@@ -118,7 +118,7 @@ const poppins = Poppins({
             </div>
 
             <div className={styles.container}>
-                <img src='/AeLSI.png' style={{width: '100%'}}></img>
+                <div><img src='/AeLSI.png' style={{width: '100%'}}></img></div>
                 <p className={styles.text}>Launch of e-Yantra Lab Setup Initiative (eLSI) Institute in collaboration with IIT Bombay. Principal and HOD meet for spreading awareness of eLSI.</p>
             </div>
             <div style={{marginLeft: 30, marginTop: 20,  position: 'relative'}}>
@@ -129,7 +129,7 @@ const poppins = Poppins({
             </div>
 
             <div className={styles.container}>
-                <img src='/Afaculty.png' style={{width: '100%'}}></img>
+                <div><img src='/Afaculty.png' style={{width: '100%'}}></img></div>
                 <p className={styles.text}>Two-Days FDP on Robotics for Faculty. Faculty team from 15  different institutes/universities have  participated.</p>
             </div>
             <div style={{marginLeft: 30, marginTop: 20,  position: 'relative'}}>
@@ -140,7 +140,7 @@ const poppins = Poppins({
             </div>
 
             <div className={styles.container}>
-                <img src='/Astudents.png' style={{width: '100%'}}></img>
+                <div><img src='/Astudents.png' style={{width: '100%'}}></img></div>
                 <p className={styles.text}>8 phases of two-Days Workshop on Robotics for our students till 2023. </p>
             </div>
             <div style={{marginLeft: 30, marginTop: 20,  position: 'relative'}}>
@@ -151,7 +151,7 @@ const poppins = Poppins({
             </div>
 
             <div className={styles.container} style={{marginBottom: 80}}>
-                <img src='/Atbt.png' style={{width: '100%'}}></img>
+                <div><img src='/Atbt.png' style={{width: '100%'}}></img></div>
                 <p className={styles.text}>24-Hour Robotics Based Hackathon and TBT for Trained Students.</p>
             </div>
             </section>
